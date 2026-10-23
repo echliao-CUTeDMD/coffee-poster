@@ -1,0 +1,3601 @@
+{
+  "title": "深坑・山水共學",
+  "seed": 20261023,
+  "visions": [
+    {
+      "id": "culture",
+      "name": "歷史文化轉譯",
+      "en": "CULTURAL MEMORY",
+      "color": "#c87550",
+      "intro": "從簪纓的地方記憶出發，讓文化成為能被理解、分享與延續的日常。",
+      "goals": [
+        "整理深坑歷史與生活故事",
+        "以導覽與創作轉譯文化",
+        "將地方觀點帶回教學"
+      ],
+      "sites": [
+        "oldstreet",
+        "ferry",
+        "trail",
+        "temple",
+        "oldtree",
+        "jishun",
+        "yongan",
+        "xingshun",
+        "fude"
+      ],
+      "metrics": [
+        "參與者回饋與學習紀錄（建議）",
+        "地方知識整理與共享情形（建議）"
+      ],
+      "steps": [
+        "114年：文化知識",
+        "115年：韌性治理",
+        "116年：產業整合"
+      ],
+      "reportName": "發掘傳統知識，多元文化轉譯計畫"
+    },
+    {
+      "id": "resilience",
+      "name": "建立韌性防災體制",
+      "en": "RESILIENT LANDSCAPES",
+      "color": "#698c79",
+      "intro": "把景美溪與坡地環境納入學習，連結氣候變遷、文化保存與地方韌性。",
+      "goals": [
+        "關注河川與聚落環境",
+        "連結風險管理與社區學習",
+        "以調查資料支持空間討論"
+      ],
+      "sites": [
+        "river",
+        "bailu",
+        "mazhu",
+        "temple",
+        "zhongzheng"
+      ],
+      "metrics": [
+        "參與者回饋與學習紀錄（建議）",
+        "地方知識整理與共享情形（建議）"
+      ],
+      "steps": [
+        "114年：文化知識",
+        "115年：韌性治理",
+        "116年：產業整合"
+      ],
+      "reportName": "因應氣候變遷，建立韌性防災體制計畫"
+    },
+    {
+      "id": "digital",
+      "name": "數位科技賦能",
+      "en": "DIGITAL FIELD NOTES",
+      "color": "#668fa6",
+      "intro": "以數位紀錄、GIS與互動作品，讓地方知識能被整理與共享。",
+      "goals": [
+        "數位化文化知識",
+        "發展文化永續空間治理平台",
+        "結合跨域課程與地方回饋"
+      ],
+      "sites": [
+        "gallery",
+        "wenhua",
+        "temple"
+      ],
+      "metrics": [
+        "參與者回饋與學習紀錄（建議）",
+        "地方知識整理與共享情形（建議）"
+      ],
+      "steps": [
+        "114年：文化知識",
+        "115年：韌性治理",
+        "116年：產業整合"
+      ],
+      "reportName": "數位科技賦能，智慧互聯管理計畫"
+    },
+    {
+      "id": "industry",
+      "name": "產業創新加值",
+      "en": "LOCAL VALUE & EXCHANGE",
+      "color": "#ba985c",
+      "intro": "從豆腐、茶與街區生活出發，串連文化體驗、地方產業與國際交流。",
+      "goals": [
+        "連結產業文化與行銷",
+        "促進地方價值創造",
+        "以跨文化交流擴展分享"
+      ],
+      "sites": [
+        "tofu",
+        "oldstreet",
+        "caodi",
+        "paozilun"
+      ],
+      "metrics": [
+        "參與者回饋與學習紀錄（建議）",
+        "地方知識整理與共享情形（建議）"
+      ],
+      "steps": [
+        "114年：文化知識",
+        "115年：韌性治理",
+        "116年：產業整合"
+      ],
+      "reportName": "提升產業創新，發展多元加值計畫"
+    }
+  ],
+  "sites": [
+    {
+      "id": "oldstreet",
+      "name": "深坑老街",
+      "x": 4.0,
+      "z": -9.0,
+      "w": 7,
+      "d": 2,
+      "h": 1.25,
+      "rot": 0,
+      "model": "oldstreet",
+      "theme": "culture",
+      "tag": "文化記憶的起點",
+      "status": "官網計畫",
+      "description": "官網將深坑老街渡船頭及深坑全區作為實踐脈絡。以街屋、生活與地方故事開啟文化轉譯。",
+      "ideas": [
+        "歷史文化與街屋觀察",
+        "居民故事與地方回饋",
+        "文化資源整理"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#c87550",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。 定位依座標清單：官方觀光代表點，非老街入口；建築大小與外觀仍為展示符號。",
+      "displayScale": 0.4,
+      "previousLayout": {
+        "x": -4,
+        "z": -5,
+        "w": 7,
+        "d": 2,
+        "rot": 0
+      },
+      "geoStatus": "官方座標",
+      "geography": {
+        "id": "oldstreet",
+        "name": "深坑老街",
+        "latitude": 25.0016916,
+        "longitude": 121.6147377,
+        "status": "official",
+        "note": "官方觀光代表點，非老街入口",
+        "source": "https://newtaipei.travel/zh-tw/attractions/detail/109911",
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "tofu",
+      "name": "豆腐與茶的街區",
+      "x": 2,
+      "z": -9.2,
+      "w": 3,
+      "d": 1.3,
+      "h": 0.9,
+      "rot": 0,
+      "model": "oldstreet",
+      "theme": "industry",
+      "tag": "飲食文化與產業交流",
+      "status": "官網活動紀錄",
+      "description": "115年深坑文化雙語導覽工作坊於8月27日完成培訓；9月7日官網報導，12位學員以服務情境與茶文化練習交流。",
+      "ideas": [
+        "訂位、點餐與結帳情境演練",
+        "茶文化跨語言交流",
+        "本模型店面為泛用造型"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/news_detail.php?id=1608",
+      "color": "#ba985c",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": -7,
+        "z": -2.5,
+        "w": 3,
+        "d": 1.3,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "tofu",
+        "name": "豆腐與茶的街區",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "主題街區，需指定店家或沿街範圍。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "ferry",
+      "name": "渡船頭記憶",
+      "x": 0.1,
+      "z": -7.7,
+      "w": 2,
+      "d": 1.1,
+      "h": 0.5,
+      "rot": 0,
+      "model": "pavilion",
+      "theme": "culture",
+      "tag": "從水路理解聚落",
+      "status": "學生課程成果",
+      "description": "官網114下建築設計(四)列有「深坑渡船頭周邊環境設計」。此處以小碼頭呈現水路記憶，不代表已施作的工程。",
+      "ideas": [
+        "閱讀學生空間設計成果",
+        "理解河岸與聚落的關係",
+        "討論文化保存與再利用"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/digitals.php",
+      "color": "#c87550",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": -1,
+        "z": -2.4,
+        "w": 2,
+        "d": 1.1,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "ferry",
+        "name": "渡船頭記憶",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "渡船頭記憶與實際廣場位置仍待核對。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "river",
+      "name": "景美溪河岸",
+      "x": 7,
+      "z": -5.7,
+      "w": 2.2,
+      "d": 1.2,
+      "h": 0.4,
+      "rot": 0,
+      "model": "garden",
+      "theme": "resilience",
+      "tag": "河川・氣候・生活",
+      "status": "官網計畫",
+      "description": "計畫關注景美溪的生態與文化環境，將氣候變遷、環境觀察與社區參與連結。",
+      "ideas": [
+        "觀察河岸生態與生活",
+        "討論文化與環境韌性",
+        "示意水面不含即時監測"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#698c79",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 5,
+        "z": -1,
+        "w": 2.2,
+        "d": 1.2,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "river",
+        "name": "景美溪河岸",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "河流為線狀地物，需河道折線及學習停留點。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "bailu",
+      "name": "白鷺橋",
+      "x": -4.221293,
+      "z": -5.85049,
+      "w": 0.42,
+      "d": 1.2532395598839037,
+      "h": 0.7,
+      "rot": -0.23894426279084977,
+      "model": "bridge",
+      "theme": "resilience",
+      "tag": "河川兩岸的連結",
+      "status": "圖檔地標＋互動延伸",
+      "description": "依新北市政府工務局公開橋頭與橋尾座標定位橋梁中點及朝向，作為觀察河川與兩岸生活移動的學習節點。橋梁外觀為示意。",
+      "ideas": [
+        "記錄兩岸地景",
+        "盤點步行體驗",
+        "非防災避難路線"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#698c79",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。 定位依座標清單：由官方橋頭、橋尾座標計算中點；建築大小與外觀仍為展示符號。",
+      "displayScale": 1,
+      "previousLayout": {
+        "x": -12,
+        "z": 0,
+        "w": 1.2,
+        "d": 4,
+        "rot": 0
+      },
+      "geoStatus": "官方座標",
+      "geography": {
+        "id": "bailu",
+        "name": "白鷺橋",
+        "latitude": 24.99956967,
+        "longitude": 121.60862605,
+        "status": "official_derived",
+        "note": "由官方橋頭、橋尾座標計算中點",
+        "source": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52",
+        "endpoints": [
+          {
+            "latitude": 24.99997985,
+            "longitude": 121.6087363
+          },
+          {
+            "latitude": 24.99915949,
+            "longitude": 121.6085158
+          }
+        ],
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "wenhua",
+      "name": "文化街",
+      "x": 8,
+      "z": -9,
+      "w": 3,
+      "d": 1.5,
+      "h": 1.1,
+      "rot": 0,
+      "model": "homes",
+      "theme": "digital",
+      "tag": "地方知識與數位地圖",
+      "status": "學生課程成果",
+      "description": "官網114上GIS地理資訊系統課程列有「深坑文化資源地圖」。文化街在此作為探索街區知識的地圖節點。",
+      "ideas": [
+        "觀看GIS課程成果",
+        "整理文化資源與來源",
+        "節點為互動展示配置"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/digitals.php",
+      "color": "#668fa6",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 4,
+        "z": -6,
+        "w": 3,
+        "d": 1.5,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "wenhua",
+        "name": "文化街",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "街道需路線幾何或指定路口。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "caodi",
+      "name": "草地頭聚落",
+      "x": 10,
+      "z": -11,
+      "w": 3,
+      "d": 1.5,
+      "h": 1.1,
+      "rot": 0,
+      "model": "homes",
+      "theme": "industry",
+      "tag": "地方生活與產業",
+      "status": "圖檔地標＋互動延伸",
+      "description": "依參考圖納入老街東北側生活範圍，延伸討論聚落與老街的產業關係。",
+      "ideas": [
+        "傾聽生活與產業需求",
+        "記錄地方特色",
+        "設計回饋在地的體驗"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#ba985c",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 9,
+        "z": -8,
+        "w": 3,
+        "d": 1.5,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "caodi",
+        "name": "草地頭聚落",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "聚落範圍，需選定解說點。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "puxin",
+      "name": "埔新橋",
+      "x": 9,
+      "z": -6.9,
+      "w": 1,
+      "d": 3,
+      "h": 0.6,
+      "rot": 0,
+      "model": "bridge",
+      "theme": "resilience",
+      "tag": "東側河川節點",
+      "status": "圖檔地標＋互動延伸",
+      "description": "以東側橋樑標示街區與河川的空間關係；模型位置與造型均為概略示意。",
+      "ideas": [
+        "比較兩岸環境",
+        "討論河川文化",
+        "回到現地核對資訊"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#698c79",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 11,
+        "z": -4,
+        "w": 1,
+        "d": 3,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "puxin",
+        "name": "埔新橋",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "官方橋梁清單有平埔橋；未確認與場景埔新橋是否為同一座，不自動套用。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "mazhu",
+      "name": "麻竹寮",
+      "x": 1,
+      "z": -0.4,
+      "w": 3,
+      "d": 1.5,
+      "h": 1,
+      "rot": 0,
+      "model": "homes",
+      "theme": "resilience",
+      "tag": "聚落與坡地環境",
+      "status": "圖檔地標＋互動延伸",
+      "description": "參考圖南側聚落作為從老街走向坡地學習的轉折。官網課程成果另有深坑坡地穩定性勘查。",
+      "ideas": [
+        "從聚落觀察地形",
+        "閱讀坡地課程成果",
+        "不提供地點危險等級"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/digitals.php",
+      "color": "#698c79",
+      "group": "community",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": -3,
+        "z": 4.2,
+        "w": 3,
+        "d": 1.5,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "mazhu",
+        "name": "麻竹寮",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "聚落範圍，需選定解說點。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "trail",
+      "name": "石媽祖古道",
+      "x": 4,
+      "z": 2.6,
+      "w": 2,
+      "d": 1,
+      "h": 0.6,
+      "rot": 0,
+      "model": "pavilion",
+      "theme": "culture",
+      "tag": "山徑上的文化閱讀",
+      "status": "圖檔地標＋互動延伸",
+      "description": "依參考圖串連古道與廟宇，延伸歷史文化轉譯的學習情境。動畫不代表實際可通行路線。",
+      "ideas": [
+        "觀察山徑與文化地景",
+        "記錄地方敘事",
+        "將觀察轉成共學素材"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#c87550",
+      "group": "community",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 1,
+        "z": 7,
+        "w": 2,
+        "d": 1,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "trail",
+        "name": "石媽祖古道",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "需分別核對登山口、古道路線及廟宇；不可直接使用廟宇座標代替古道入口。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "dalu",
+      "name": "大崙腳",
+      "x": 0,
+      "z": 4,
+      "w": 3,
+      "d": 1.3,
+      "h": 1,
+      "rot": 0,
+      "model": "homes",
+      "theme": "culture",
+      "tag": "山邊的生活記憶",
+      "status": "圖檔地標＋互動延伸",
+      "description": "以參考圖的大崙腳標示南側生活地景，呈現老街與周邊聚落的關係。",
+      "ideas": [
+        "從居民視角認識地方",
+        "記錄聚落生活",
+        "共享前確認故事使用意願"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/114-116.html",
+      "color": "#c87550",
+      "group": "community",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": -6,
+        "z": 9,
+        "w": 3,
+        "d": 1.3,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "dalu",
+        "name": "大崙腳",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "聚落範圍，需選定解說點。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "temple",
+      "name": "鎮南宮石媽祖廟",
+      "x": 4.329974,
+      "z": 5.962299,
+      "w": 3,
+      "d": 2,
+      "h": 1.4,
+      "rot": 0,
+      "model": "temple",
+      "theme": "digital",
+      "tag": "空拍與坡地環境調查",
+      "status": "學生課程成果",
+      "description": "官網114下防災監測與檢測實習列有「深坑石媽祖廟坡地環境調查及空拍」A、B組成果。模型廟宇為風格化造型。",
+      "ideas": [
+        "閱讀課程調查成果",
+        "理解空拍與環境紀錄",
+        "成果不等於即時安全判定"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/digitals.php",
+      "color": "#668fa6",
+      "group": "community",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。 定位依座標清單：維基百科座標，仍待官方或現地核對；建築大小與外觀仍為展示符號。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 3,
+        "z": 11,
+        "w": 3,
+        "d": 2,
+        "rot": 0
+      },
+      "geoStatus": "候選座標・待核對",
+      "geography": {
+        "id": "temple",
+        "name": "鎮南宮石媽祖廟",
+        "latitude": 24.991611,
+        "longitude": 121.614983,
+        "status": "secondary_candidate",
+        "note": "維基百科座標，仍待官方或現地核對",
+        "source": "https://zh.wikipedia.org/wiki/鎮南宮石媽祖廟",
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "gallery",
+      "name": "數位共學展站",
+      "x": 8,
+      "z": -11.3,
+      "w": 2,
+      "d": 1.2,
+      "h": 0.9,
+      "rot": 0,
+      "model": "kiosk",
+      "theme": "digital",
+      "tag": "把課程成果帶回地方",
+      "status": "互動延伸構想",
+      "description": "此展站為本次互動模型新增的虛擬入口，不是現地設施。連結官網遊戲、GIS、影像與空間設計課程成果。",
+      "ideas": [
+        "深坑食旅大冒險：遊戲理論與設計",
+        "深坑文化資源地圖：GIS",
+        "渡船頭周邊環境設計：建築設計",
+        "訪視報告：需求、課程、工作坊與影響力的關係"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/digitals.php",
+      "color": "#668fa6",
+      "group": "campus",
+      "source": "內容依所連結之官方資料整理；地點相對位置參考使用者圖檔，場景造型與活動路徑為示意。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 1,
+        "z": -7.5,
+        "w": 2,
+        "d": 1.2,
+        "rot": 0
+      },
+      "geoStatus": "虛構展站",
+      "geography": {
+        "id": "gallery",
+        "name": "數位共學展站",
+        "latitude": null,
+        "longitude": null,
+        "status": "virtual",
+        "note": "虛構數位共學展站，沒有真實地理座標。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "oldtree",
+      "name": "老街入口大樹",
+      "x": -0.2,
+      "z": -10,
+      "w": 2.6,
+      "d": 2.4,
+      "h": 2.7,
+      "rot": 0,
+      "model": "landmarkTree",
+      "theme": "culture",
+      "tag": "集合與聚落認識",
+      "status": "文件導覽景點 · 概念建模",
+      "description": "文件將入口大樹作為集合點，從深坑地形、聚落與老街位置開始導覽。",
+      "ideas": [
+        "集合地標與街區方向",
+        "觀察樹蔭與停留空間",
+        "不阻擋商家出入口"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/index.php",
+      "color": "#c87550",
+      "group": "campus",
+      "documentModel": true,
+      "source": "使用者提供《深坑六條主題導覽路線規劃》（2026-10-23）。造型為風格化概念，配置為展示編排；非測繪座標、建築復原或實地導航。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": -10,
+        "z": -5,
+        "w": 2.6,
+        "d": 2.4,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "oldtree",
+        "name": "老街入口大樹",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "入口有受保護樹106茄苳及107樟樹；需核對對應樹木定位，不套用老街代表點。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "jishun",
+      "name": "集順廟",
+      "x": 2.339101,
+      "z": -8.314863,
+      "w": 3.2,
+      "d": 2.2,
+      "h": 2.1,
+      "rot": 0,
+      "model": "jishunTemple",
+      "theme": "culture",
+      "tag": "廟口信仰與街市",
+      "status": "文件導覽景點 · 概念建模",
+      "description": "依文件，集順廟連結信仰、建築裝飾、街市與居民日常。造型為概念廟宇，非實測復原。",
+      "ideas": [
+        "廟口與交易、聚會活動",
+        "先徵詢廟方解說位置",
+        "攝影避免干擾祭祀"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/index.php",
+      "color": "#c87550",
+      "group": "campus",
+      "documentModel": true,
+      "source": "使用者提供《深坑六條主題導覽路線規劃》（2026-10-23）。造型為風格化概念，配置為展示編排；非測繪座標、建築復原或實地導航。 定位依座標清單：次級來源定位，仍待官方或現地核對；建築大小與外觀仍為展示符號。",
+      "displayScale": 0.3,
+      "previousLayout": {
+        "x": -4,
+        "z": -9,
+        "w": 3.2,
+        "d": 2.2,
+        "rot": 0
+      },
+      "geoStatus": "候選座標・待核對",
+      "geography": {
+        "id": "jishun",
+        "name": "集順廟",
+        "latitude": 25.00123,
+        "longitude": 121.613503,
+        "status": "secondary_candidate",
+        "note": "次級來源定位，仍待官方或現地核對",
+        "source": "https://religion.olc.tw/新北市/d7e1bd6d-12cd-4b7e-9aa3-0d99dadb2177/index.html",
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "yongan",
+      "name": "黃氏永安居",
+      "x": -1.126092,
+      "z": -8.065506,
+      "w": 4.2,
+      "d": 3.4,
+      "h": 1.6,
+      "rot": 0,
+      "model": "courtyard",
+      "theme": "culture",
+      "tag": "家族宅第與空間觀察",
+      "status": "文件導覽景點 · 概念建模",
+      "description": "文件安排以黃氏永安居認識家族發展及宅第格局。此院落模型僅表達建築觀察主題，不代表原建築精確格局。",
+      "ideas": [
+        "比較住宅與商業街屋",
+        "觀察屋頂、門窗與動線",
+        "私人前埕及室內須取得同意"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/index.php",
+      "color": "#c87550",
+      "group": "community",
+      "documentModel": true,
+      "source": "使用者提供《深坑六條主題導覽路線規劃》（2026-10-23）。造型為風格化概念，配置為展示編排；非測繪座標、建築復原或實地導航。 定位依座標清單：文化資產定位點，入口待確認；建築大小與外觀仍為展示符號。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": -11,
+        "z": 6,
+        "w": 4.2,
+        "d": 3.4,
+        "rot": 0
+      },
+      "geoStatus": "官方座標",
+      "geography": {
+        "id": "yongan",
+        "name": "黃氏永安居",
+        "latitude": 25.001062,
+        "longitude": 121.610927,
+        "status": "official",
+        "note": "文化資產定位點，入口待確認",
+        "source": "https://tcmb.culture.tw/zh-tw/detail?id=19920523000001&indexCode=BOCH_CountryCulture_11",
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "xingshun",
+      "name": "黃氏興順居",
+      "x": 4.550733,
+      "z": -10.079056,
+      "w": 4.2,
+      "d": 3.4,
+      "h": 1.6,
+      "rot": 0,
+      "model": "courtyard",
+      "theme": "culture",
+      "tag": "三合院與建材",
+      "status": "文件導覽景點 · 概念建模",
+      "description": "文件以興順居說明三合院、石條、磚牆與防禦空間；本模型用院落與材質色塊作概念表達。",
+      "ideas": [
+        "石材基座與紅磚牆面",
+        "宅第與街屋用途比較",
+        "無法入內時採公共空間外觀觀察"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/index.php",
+      "color": "#c87550",
+      "group": "community",
+      "documentModel": true,
+      "source": "使用者提供《深坑六條主題導覽路線規劃》（2026-10-23）。造型為風格化概念，配置為展示編排；非測繪座標、建築復原或實地導航。 定位依座標清單：文化資產定位點，入口待確認；建築大小與外觀仍為展示符號。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 9,
+        "z": 4.8,
+        "w": 4.2,
+        "d": 3.4,
+        "rot": 0
+      },
+      "geoStatus": "官方座標",
+      "geography": {
+        "id": "xingshun",
+        "name": "黃氏興順居",
+        "latitude": 25.002418595720076,
+        "longitude": 121.61514711090885,
+        "status": "official",
+        "note": "文化資產定位點，入口待確認",
+        "source": "https://tcmb.culture.tw/zh-tw/detail?id=20130201000002&indexCode=BOCH_CountryCulture_11",
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "fude",
+      "name": "街尾福德宮",
+      "x": 0.3,
+      "z": -11.3,
+      "w": 2,
+      "d": 1.7,
+      "h": 1.55,
+      "rot": 0,
+      "model": "fudeShrine",
+      "theme": "culture",
+      "tag": "土地公信仰與裝飾",
+      "status": "文件導覽景點 · 概念建模",
+      "description": "文件以街尾福德宮串連庶民生活，並將屋頂雞、馬剪黏列為觀察題材。本模型以小型屋頂符號示意，不重製文物細節。",
+      "ideas": [
+        "辨識屋頂裝飾與象徵",
+        "土地公信仰與街市生活",
+        "尊重參拜者及拍攝意願"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/index.php",
+      "color": "#c87550",
+      "group": "campus",
+      "documentModel": true,
+      "source": "使用者提供《深坑六條主題導覽路線規劃》（2026-10-23）。造型為風格化概念，配置為展示編排；非測繪座標、建築復原或實地導航。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 7,
+        "z": -10,
+        "w": 2,
+        "d": 1.7,
+        "rot": 0
+      },
+      "geoStatus": "示意位置・待定位",
+      "geography": {
+        "id": "fude",
+        "name": "街尾福德宮",
+        "latitude": null,
+        "longitude": null,
+        "status": "unresolved",
+        "note": "需核對深坑街153號的街尾福德宮，不可誤用北深路三段水尾福德宮。",
+        "source": null,
+        "coordinateSystem": "WGS84"
+      }
+    },
+    {
+      "id": "paozilun",
+      "name": "炮子崙茶路",
+      "x": -8.641635,
+      "z": 8.056599,
+      "w": 5,
+      "d": 4,
+      "h": 2.2,
+      "rot": 0,
+      "model": "teaTrail",
+      "theme": "industry",
+      "tag": "茶山古道與山林聚落",
+      "status": "文件導覽景點 · 概念建模",
+      "description": "依文件，炮子崙步道又稱茶山古道；路線連結農家、建材、菜園與茶園，再回到老街理解茶運。模型錨點依官方步道座標配置；茶園、步階造型與路況仍為示意。",
+      "ideas": [
+        "山區生產、古道搬運、街市交易、水路運輸",
+        "事先踏查與設定折返時間",
+        "雨天或颱風前後改採老街文化路線"
+      ],
+      "url": "https://cprcusr.cute.edu.tw/index.php",
+      "color": "#ba985c",
+      "group": "community",
+      "documentModel": true,
+      "source": "使用者提供《深坑六條主題導覽路線規劃》（2026-10-23）。造型為風格化概念，配置為展示編排；非測繪座標、建築復原或實地導航。 定位依座標清單：炮子崙步道官方代表點，不代表整條茶路或已核實入口；建築大小與外觀仍為展示符號。",
+      "displayScale": 0.48,
+      "previousLayout": {
+        "x": 12,
+        "z": 10,
+        "w": 5,
+        "d": 4,
+        "rot": 0
+      },
+      "geoStatus": "官方座標",
+      "geography": {
+        "id": "paozilun",
+        "name": "炮子崙茶路",
+        "latitude": 24.9902,
+        "longitude": 121.60534,
+        "status": "official",
+        "note": "炮子崙步道官方代表點，不代表整條茶路或已核實入口",
+        "source": "https://newtaipei.travel/zh-tw/attractions/detail/402645",
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      }
+    },
+    {
+      "id": "zhongzheng",
+      "name": "中正橋",
+      "x": 1.425183,
+      "z": -7.331647,
+      "w": 0.42,
+      "d": 0.726495444864591,
+      "h": 0.7,
+      "rot": 0.14942491587111897,
+      "model": "bridge",
+      "theme": "resilience",
+      "tag": "老街與溪南的連結",
+      "status": "官方橋梁資料＋學習延伸",
+      "description": "新北市政府工務局橋梁資料收錄「中正橋(1C-1)」，橋梁總長53.4公尺。透過橋梁觀察兩岸通行、河川地景與聚落生活。",
+      "ideas": [
+        "比較橋頭、橋尾與老街的相對方向",
+        "觀察橋梁兩端的步行空間與河岸地景",
+        "座標中點：25.000568, 121.612824；學習觀察不代表安全鑑定"
+      ],
+      "url": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52",
+      "color": "#698c79",
+      "group": "campus",
+      "source": "橋名、53.4公尺橋長與兩端座標依新北市政府工務局公開資料。中點及朝向已換算至場景；橋梁外觀、河道與道路仍為示意。",
+      "geography": {
+        "id": "zhongzheng",
+        "name": "中正橋",
+        "latitude": 25.000567574999998,
+        "longitude": 121.6128236,
+        "status": "official_derived",
+        "note": "由官方橋頭、橋尾座標計算中點；已依座標定位與設定橋梁朝向。",
+        "source": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52",
+        "endpoints": [
+          {
+            "latitude": 25.00080958,
+            "longitude": 121.6127834
+          },
+          {
+            "latitude": 25.00032557,
+            "longitude": 121.6128638
+          }
+        ],
+        "coordinateSystem": "WGS84",
+        "metersPerUnit": 75
+      },
+      "displayScale": 1,
+      "previousLayout": {
+        "x": -4,
+        "z": -1.5,
+        "w": 1.1,
+        "d": 3.1,
+        "rot": 0
+      },
+      "geoStatus": "官方座標"
+    }
+  ],
+  "nodes": {
+    "west": [
+      -2,
+      -8.8
+    ],
+    "old": [
+      4,
+      -8.2
+    ],
+    "ferry": [
+      0.1,
+      -7.7
+    ],
+    "east": [
+      7,
+      -8
+    ],
+    "wenhua": [
+      8,
+      -8.3
+    ],
+    "caodi": [
+      10,
+      -10
+    ],
+    "puxin": [
+      9,
+      -6.9
+    ],
+    "bridge": [
+      -4.221293,
+      -5.85049
+    ],
+    "southwest": [
+      -4.221293,
+      -4.85049
+    ],
+    "south": [
+      1.425183,
+      -6.331647
+    ],
+    "mazhu": [
+      1,
+      0.3
+    ],
+    "trail": [
+      4,
+      3.3
+    ],
+    "dalu": [
+      0,
+      4.8
+    ],
+    "temple": [
+      4.329974,
+      6.862299
+    ],
+    "gallery": [
+      8,
+      -10.5
+    ],
+    "tofu": [
+      2,
+      -8.6
+    ],
+    "zhongzheng": [
+      1.425183,
+      -7.331647
+    ]
+  },
+  "edges": [
+    [
+      "bridge",
+      "southwest"
+    ],
+    [
+      "east",
+      "ferry"
+    ],
+    [
+      "bridge",
+      "west"
+    ],
+    [
+      "temple",
+      "trail"
+    ],
+    [
+      "gallery",
+      "old"
+    ],
+    [
+      "ferry",
+      "old"
+    ],
+    [
+      "east",
+      "old"
+    ],
+    [
+      "mazhu",
+      "south"
+    ],
+    [
+      "dalu",
+      "mazhu"
+    ],
+    [
+      "east",
+      "wenhua"
+    ],
+    [
+      "old",
+      "tofu"
+    ],
+    [
+      "old",
+      "west"
+    ],
+    [
+      "mazhu",
+      "trail"
+    ],
+    [
+      "caodi",
+      "east"
+    ],
+    [
+      "ferry",
+      "zhongzheng"
+    ],
+    [
+      "zhongzheng",
+      "south"
+    ],
+    [
+      "south",
+      "southwest"
+    ]
+  ],
+  "routes": [
+    {
+      "id": "r1",
+      "name": "老街文化走讀",
+      "theme": "culture",
+      "role": "文化走讀小隊",
+      "cargo": "訪談與地方筆記",
+      "to": "wenhua",
+      "sites": [
+        "oldstreet",
+        "ferry",
+        "wenhua"
+      ],
+      "nodes": [
+        "old",
+        "ferry",
+        "east",
+        "wenhua"
+      ],
+      "color": "#c87550",
+      "summary": "以歷史文化轉譯為主軸，從街屋與渡船頭閱讀聚落。",
+      "steps": [
+        "閱讀官網與田野資料",
+        "交流觀察與地方回饋",
+        "整理可共享的成果"
+      ],
+      "count": 5,
+      "from": "oldstreet"
+    },
+    {
+      "id": "r2",
+      "name": "豆腐與茶的跨語言交流",
+      "theme": "industry",
+      "role": "雙語學習夥伴",
+      "cargo": "導覽練習卡",
+      "to": "caodi",
+      "sites": [
+        "tofu",
+        "oldstreet",
+        "caodi"
+      ],
+      "nodes": [
+        "tofu",
+        "old",
+        "east",
+        "caodi"
+      ],
+      "color": "#ba985c",
+      "summary": "以官網雙語導覽工作坊為參考，呈現產業文化交流情境。",
+      "steps": [
+        "閱讀官網與田野資料",
+        "交流觀察與地方回饋",
+        "整理可共享的成果"
+      ],
+      "count": 6,
+      "from": "tofu"
+    },
+    {
+      "id": "r3",
+      "name": "景美溪環境觀察",
+      "theme": "resilience",
+      "role": "環境共學小隊",
+      "cargo": "觀察紀錄",
+      "to": "puxin",
+      "sites": [
+        "bailu",
+        "river",
+        "puxin"
+      ],
+      "nodes": [
+        "bridge",
+        "west",
+        "old",
+        "ferry",
+        "east",
+        "puxin"
+      ],
+      "color": "#698c79",
+      "summary": "連結河川文化與環境觀察；不模擬水位或災害預警。",
+      "steps": [
+        "閱讀官網與田野資料",
+        "交流觀察與地方回饋",
+        "整理可共享的成果"
+      ],
+      "count": 5,
+      "from": "bailu"
+    },
+    {
+      "id": "r4",
+      "name": "山徑與坡地學習",
+      "theme": "resilience",
+      "role": "田野課程學生",
+      "cargo": "田野記錄本",
+      "to": "temple",
+      "sites": [
+        "mazhu",
+        "trail",
+        "temple"
+      ],
+      "nodes": [
+        "mazhu",
+        "trail",
+        "temple"
+      ],
+      "color": "#698c79",
+      "summary": "以官網坡地調查與空拍課程成果為參考，串連南側學習節點。",
+      "steps": [
+        "閱讀官網與田野資料",
+        "交流觀察與地方回饋",
+        "整理可共享的成果"
+      ],
+      "count": 6,
+      "from": "mazhu"
+    },
+    {
+      "id": "r5",
+      "name": "把田野帶進數位作品",
+      "theme": "digital",
+      "role": "跨域創作學生",
+      "cargo": "地圖與影像",
+      "to": "temple",
+      "sites": [
+        "gallery",
+        "oldstreet",
+        "temple"
+      ],
+      "nodes": [
+        "gallery",
+        "old",
+        "west",
+        "bridge",
+        "southwest",
+        "south",
+        "mazhu",
+        "trail",
+        "temple"
+      ],
+      "color": "#668fa6",
+      "summary": "從文化資源地圖到互動作品，示意課程如何整理與分享田野知識。",
+      "steps": [
+        "閱讀官網與田野資料",
+        "交流觀察與地方回饋",
+        "整理可共享的成果"
+      ],
+      "count": 5,
+      "from": "gallery"
+    },
+    {
+      "id": "r6",
+      "name": "聚落故事回到老街",
+      "theme": "culture",
+      "role": "地方故事夥伴",
+      "cargo": "生活記憶",
+      "to": "oldstreet",
+      "sites": [
+        "dalu",
+        "mazhu",
+        "oldstreet"
+      ],
+      "nodes": [
+        "dalu",
+        "mazhu",
+        "south",
+        "southwest",
+        "bridge",
+        "west",
+        "old"
+      ],
+      "color": "#c87550",
+      "summary": "周邊聚落與老街的互動延伸構想：以居民觀點豐富文化敘事。",
+      "steps": [
+        "閱讀官網與田野資料",
+        "交流觀察與地方回饋",
+        "整理可共享的成果"
+      ],
+      "count": 6,
+      "from": "dalu"
+    }
+  ],
+  "roads": [
+    {
+      "name": "106乙 · 示意",
+      "points": [
+        [
+          -16,
+          -3.5
+        ],
+        [
+          -10,
+          -4
+        ],
+        [
+          -4,
+          -4.3
+        ],
+        [
+          2,
+          -5
+        ],
+        [
+          7,
+          -5.2
+        ],
+        [
+          13,
+          -8
+        ],
+        [
+          16,
+          -10
+        ]
+      ],
+      "width": 0.42,
+      "label": [
+        -8,
+        -3.5
+      ]
+    },
+    {
+      "name": "文化街 · 示意",
+      "points": [
+        [
+          -2,
+          -10.4
+        ],
+        [
+          2,
+          -10.5
+        ],
+        [
+          6,
+          -10
+        ],
+        [
+          10,
+          -8.9
+        ]
+      ],
+      "width": 0.28,
+      "label": [
+        9,
+        -9.8
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "min": 0,
+      "name": "老街燈火",
+      "copy": "時間與人物為展示情境，非真實活動排程。",
+      "sites": [
+        "oldstreet",
+        "tofu"
+      ]
+    },
+    {
+      "min": 420,
+      "name": "河岸晨光",
+      "copy": "時間與人物為展示情境，非真實活動排程。",
+      "sites": [
+        "river",
+        "bailu"
+      ]
+    },
+    {
+      "min": 540,
+      "name": "田野與共學",
+      "copy": "時間與人物為展示情境，非真實活動排程。",
+      "sites": [
+        "gallery",
+        "temple"
+      ]
+    },
+    {
+      "min": 720,
+      "name": "街區生活",
+      "copy": "時間與人物為展示情境，非真實活動排程。",
+      "sites": [
+        "tofu",
+        "wenhua"
+      ]
+    },
+    {
+      "min": 1020,
+      "name": "山水暮色",
+      "copy": "時間與人物為展示情境，非真實活動排程。",
+      "sites": [
+        "trail",
+        "mazhu"
+      ]
+    },
+    {
+      "min": 1200,
+      "name": "地方記憶的夜",
+      "copy": "時間與人物為展示情境，非真實活動排程。",
+      "sites": [
+        "oldstreet",
+        "ferry"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "type": "site",
+      "id": "oldstreet",
+      "title": "01 · 從深坑老街出發",
+      "text": "用文化韌性理解地方的生活與記憶。"
+    },
+    {
+      "type": "vision",
+      "id": "industry",
+      "title": "02 · 豆腐、茶與跨語言交流",
+      "text": "閱讀官網工作坊，認識地方產業的學習連結。"
+    },
+    {
+      "type": "vision",
+      "id": "resilience",
+      "title": "03 · 順著景美溪閱讀環境",
+      "text": "河川與坡地是文化永續的重要背景。"
+    },
+    {
+      "type": "site",
+      "id": "temple",
+      "title": "04 · 走向石媽祖廟",
+      "text": "認識官網的坡地環境調查及空拍課程成果。"
+    },
+    {
+      "type": "site",
+      "id": "gallery",
+      "title": "05 · 讓田野成為數位作品",
+      "text": "以GIS、遊戲與影像共享地方知識。"
+    },
+    {
+      "type": "vision",
+      "id": "culture",
+      "title": "06 · 把故事交還地方",
+      "text": "從114至116年的計畫方向，思考文化如何持續被理解。"
+    }
+  ],
+  "records": [
+    {
+      "id": "needs",
+      "name": "從在地需求到課程實作",
+      "status": "需求盤點／課程設計",
+      "pages": "13–15、18–22",
+      "sites": [
+        "oldstreet",
+        "gallery",
+        "river"
+      ],
+      "summary": "地方需求不只是觀光，也包含河川保存、地方故事、數位導覽、產業體驗與人才培育。報告將這些需求接入課程及工作坊。",
+      "items": [
+        "需求：文化資源、景美溪、雙語與地方產業",
+        "課程：GIS、遊戲理論與設計、紀錄片製作、國際行銷管理等",
+        "產出：文化地圖、遊戲、影像、設計與行銷提案",
+        "回饋：將成果帶回地方，持續交流修正"
+      ],
+      "note": "報告第18頁以30門在地實踐課程說明整體課程架構；此數字不是單一學期的實際開課數。"
+    },
+    {
+      "id": "baking",
+      "name": "深坑國中・福窯烘焙",
+      "status": "報告記載辦理／2026.08.19–20",
+      "pages": "40、52–53",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "summary": "利用深坑國中的福窯，結合地方食材與烘焙技術，將人才培育、文化延續與社群交流放在同一場工作坊。",
+      "items": [
+        "場域：深坑國中；本次報告指定訪視點之一",
+        "教學：窯烤麵包與蛋糕製作技術",
+        "地方連結：以食物分享在地文化",
+        "與老街關係：報告踏查由深坑舊廳舍移動至深坑國中"
+      ],
+      "note": "深坑國中為延伸場域，未在目前模型中標定精確位置；動畫路線不代表當日行程。"
+    },
+    {
+      "id": "opera",
+      "name": "茶香戲韻・藝響深坑",
+      "status": "活動紀錄／2026.06.13",
+      "pages": "30–32",
+      "sites": [
+        "oldstreet",
+        "ferry"
+      ],
+      "summary": "報告記載與國立臺灣戲曲學院合作，在深坑廳前廣場舉辦歌仔戲與客家戲文化永續推廣展演。",
+      "items": [
+        "展演結合文化講座、臉譜彩繪與遊藝踩街",
+        "地方幼兒園、樂齡歌仔戲班與文史工作室參與",
+        "以跨世代共同參與支持文化傳承"
+      ],
+      "note": "廣場活動由老街節點連結閱讀，模型沒有還原實際舞臺與場地配置。"
+    },
+    {
+      "id": "safety",
+      "name": "文化資產與社區防災培力",
+      "status": "活動紀錄／2026.05.11、08.06",
+      "pages": "37–38",
+      "sites": [
+        "oldstreet",
+        "river",
+        "bailu"
+      ],
+      "summary": "報告分別記載面向警專學生的文化資產防救災講座，以及社區防災講習與消防演習。",
+      "items": [
+        "專業培力：文化資產風險辨識與應變知識",
+        "社區合作：區公所、里辦公處、文史工作室等參與",
+        "學習主軸：文化資產防災與社區防救災行動"
+      ],
+      "note": "此處展示培力紀錄，不提供個人應變指引、避難路線或即時風險判定。"
+    },
+    {
+      "id": "riverwork",
+      "name": "景美溪的自然與文化價值",
+      "status": "報告當時規劃／尚未據此確認完成",
+      "pages": "41",
+      "sites": [
+        "river",
+        "ferry"
+      ],
+      "summary": "報告規劃景美溪價值探索工作坊，以水質探測、環境觀察與水路運輸記憶，理解河川與茶葉貿易、地方產業的關係。",
+      "items": [
+        "規劃時間：115年9月起二場",
+        "教學方向：土木專業與環境觀察",
+        "地方議題：河川保存、文化記憶與生活"
+      ],
+      "note": "文件日期為2026.08.20；不能僅因預定日期已過，就視為已舉辦。"
+    },
+    {
+      "id": "penang",
+      "name": "從深坑到檳城・跨國共學",
+      "status": "交流紀錄／2026.05.12–15",
+      "pages": "42–45",
+      "sites": [
+        "gallery",
+        "oldstreet"
+      ],
+      "summary": "報告記載中國科大與檳城赤道藝術學院、拉曼管理及工藝大學共同推動跨校課程與地方實踐，5月13日於檳城分享合作成果。",
+      "items": [
+        "課程議題：文化資產、地方記憶、氣候調適與文化韌性",
+        "模式：兩地三校學生與在地社群互動",
+        "國際知識：另以Preserving Legacies培訓支持深坑社區學習"
+      ],
+      "note": "檳城為國外實踐場域，以內容卡呈現，不放入深坑本地地理路網。"
+    },
+    {
+      "id": "impact",
+      "name": "從參與紀錄到社會影響",
+      "status": "報告估算／非營收、非即時績效",
+      "pages": "48–50",
+      "sites": [
+        "gallery",
+        "oldstreet"
+      ],
+      "summary": "報告以課程、工作坊與交流活動的問卷，整理參與者的能力、行為與認同改變，作為活動改善及社會影響評估依據。",
+      "items": [
+        "114學年第2學期：表列修課學生母體571人，非明確揭露的回收樣本數",
+        "淨社會影響力估值：NT$6,580,612.84（報告第49頁）",
+        "計算揭露：18,909,807 × 34.80%；定價及調整假設依原報告",
+        "第50頁三項平均：學習85.86%、行為85.58%、認同87.63%"
+      ],
+      "note": "估值不是實際收入，也不是SROI投報倍數。第50頁標題概括「90%以上」，但表格平均低於90%；防災行為指標表列92.5%、註文93.33%，因此不選用該單項作主視覺數字。"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "huang_tu",
+      "name": "黃土水",
+      "org": "深坑區農會",
+      "role": "總幹事",
+      "x": 1.1,
+      "z": -8.399999999999999,
+      "color": "#b39153",
+      "theme": "industry",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "record": "baking",
+      "question": "地方產業如何成為共學教材？",
+      "prompt": "從豆腐、茶與地方食材切入，閱讀福窯工作坊如何連結技術學習與社群分享。"
+    },
+    {
+      "id": "huang_jian",
+      "name": "黃建強",
+      "org": "深坑里辦公處",
+      "role": "里長",
+      "x": 3.1,
+      "z": -8.2,
+      "color": "#588c88",
+      "theme": "culture",
+      "sites": [
+        "oldstreet",
+        "river"
+      ],
+      "record": "safety",
+      "question": "如何把居民需求帶進學習？",
+      "prompt": "從老街生活與文化資產防災出發，探索社區參與如何與課程相互連結。"
+    },
+    {
+      "id": "chiu",
+      "name": "邱慧珠",
+      "org": "鄭福田文教基金會",
+      "role": "執行長",
+      "x": 7.1,
+      "z": -10.5,
+      "color": "#ab7d81",
+      "theme": "culture",
+      "sites": [
+        "gallery",
+        "oldstreet"
+      ],
+      "record": "opera",
+      "question": "文化活動如何連結不同世代？",
+      "prompt": "閱讀戲曲展演案例，思考地方文化、教育與跨世代參與的關係。"
+    },
+    {
+      "id": "chien",
+      "name": "簡振隆",
+      "org": "深坑人文工作室",
+      "role": "主任",
+      "x": -0.8,
+      "z": -6.9,
+      "color": "#777f9f",
+      "theme": "culture",
+      "sites": [
+        "ferry",
+        "oldstreet"
+      ],
+      "record": "needs",
+      "question": "如何把地方記憶轉成作品？",
+      "prompt": "從水路、街屋與生活故事開始，把田野觀察轉成地圖、影像與互動作品。"
+    },
+    {
+      "id": "huang_mei",
+      "name": "黃美華",
+      "org": "台灣簪纓生態文化推廣協會",
+      "role": "女士",
+      "x": 6.1,
+      "z": -4.9,
+      "color": "#839653",
+      "theme": "resilience",
+      "sites": [
+        "river",
+        "trail"
+      ],
+      "record": "riverwork",
+      "question": "如何一起閱讀山水與文化？",
+      "prompt": "從景美溪的環境與水路記憶出發，思考生態觀察如何支持文化永續。"
+    },
+    {
+      "id": "student_0",
+      "name": "通識學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "通識",
+      "x": 6.699999999999999,
+      "z": -4.550000000000001,
+      "color": "#648da1",
+      "theme": "resilience",
+      "sites": [
+        "river"
+      ],
+      "record": "needs",
+      "question": "環境觀察",
+      "prompt": "整理河岸觀察筆記，討論永續生活。",
+      "axis": "A",
+      "partner": "huang_mei"
+    },
+    {
+      "id": "student_1",
+      "name": "土木系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "土木系",
+      "x": 3.429974,
+      "z": 6.762299,
+      "color": "#89a06b",
+      "theme": "resilience",
+      "sites": [
+        "temple"
+      ],
+      "record": "needs",
+      "question": "坡地調查",
+      "prompt": "以調查與檢測課程認識坡地環境，整理學習紀錄。",
+      "axis": "B",
+      "partner": "huang_jian"
+    },
+    {
+      "id": "student_2",
+      "name": "數媒系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "數媒系",
+      "x": 7.699999999999999,
+      "z": -10.15,
+      "color": "#b88b61",
+      "theme": "digital",
+      "sites": [
+        "gallery"
+      ],
+      "record": "needs",
+      "question": "互動遊戲",
+      "prompt": "把地方故事轉成遊戲原型，邀請地方夥伴提供回饋。",
+      "axis": "F",
+      "partner": "chien"
+    },
+    {
+      "id": "student_3",
+      "name": "建築系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "建築系",
+      "x": -0.20000000000000007,
+      "z": -6.550000000000001,
+      "color": "#9682a4",
+      "theme": "resilience",
+      "sites": [
+        "ferry"
+      ],
+      "record": "needs",
+      "question": "空間測繪",
+      "prompt": "觀察街屋與河岸，整理圖面、模型與文化資源地圖。",
+      "axis": "B",
+      "partner": "chien"
+    },
+    {
+      "id": "student_4",
+      "name": "室設系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "室設系",
+      "x": 7.1,
+      "z": -8.2,
+      "color": "#648da1",
+      "theme": "culture",
+      "sites": [
+        "wenhua"
+      ],
+      "record": "needs",
+      "question": "空間再用",
+      "prompt": "從使用需求出發，提出閒置空間再利用構想。",
+      "axis": "B",
+      "partner": "huang_jian"
+    },
+    {
+      "id": "student_5",
+      "name": "視傳系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "視傳系",
+      "x": 3.7,
+      "z": -7.85,
+      "color": "#89a06b",
+      "theme": "industry",
+      "sites": [
+        "oldstreet"
+      ],
+      "record": "needs",
+      "question": "地方設計",
+      "prompt": "整理地方色彩與視覺元素，設計品牌或文創提案。",
+      "axis": "E",
+      "partner": "chiu"
+    },
+    {
+      "id": "student_6",
+      "name": "影視系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "影視系",
+      "x": 0.3999999999999999,
+      "z": -6.9,
+      "color": "#b88b61",
+      "theme": "culture",
+      "sites": [
+        "ferry"
+      ],
+      "record": "needs",
+      "question": "影像紀錄",
+      "prompt": "以訪談與影像說故事，記錄前先確認參與及使用意願。",
+      "axis": "C",
+      "partner": "chien"
+    },
+    {
+      "id": "student_7",
+      "name": "資工系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "資工系",
+      "x": 8.299999999999999,
+      "z": -10.5,
+      "color": "#9682a4",
+      "theme": "digital",
+      "sites": [
+        "gallery"
+      ],
+      "record": "needs",
+      "question": "資料整理",
+      "prompt": "設計資料欄位與網頁入口，讓地方知識易於查找。",
+      "axis": "F",
+      "partner": "chien"
+    },
+    {
+      "id": "student_8",
+      "name": "資管系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "資管系",
+      "x": 7.699999999999999,
+      "z": -7.85,
+      "color": "#648da1",
+      "theme": "digital",
+      "sites": [
+        "wenhua"
+      ],
+      "record": "needs",
+      "question": "數位應用",
+      "prompt": "思考AI與電子商務如何支持地方資訊整理及行銷。",
+      "axis": "F",
+      "partner": "huang_tu"
+    },
+    {
+      "id": "student_9",
+      "name": "企管系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "企管系",
+      "x": 1.7000000000000002,
+      "z": -8.049999999999999,
+      "color": "#89a06b",
+      "theme": "industry",
+      "sites": [
+        "tofu"
+      ],
+      "record": "needs",
+      "question": "活動企劃",
+      "prompt": "從在地需求形成活動或創業企劃，討論可行性與回饋。",
+      "axis": "E",
+      "partner": "huang_tu"
+    },
+    {
+      "id": "student_10",
+      "name": "行管系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "行管系",
+      "x": 2.3,
+      "z": -8.399999999999999,
+      "color": "#b88b61",
+      "theme": "industry",
+      "sites": [
+        "tofu"
+      ],
+      "record": "needs",
+      "question": "產業行銷",
+      "prompt": "觀察消費情境，提出地方產品的國際行銷構想。",
+      "axis": "D",
+      "partner": "huang_tu"
+    },
+    {
+      "id": "student_11",
+      "name": "觀管系學生",
+      "org": "文化永續與智慧防災學程",
+      "role": "虛構學生",
+      "student": true,
+      "dept": "觀管系",
+      "x": 9.1,
+      "z": -10.2,
+      "color": "#9682a4",
+      "theme": "industry",
+      "sites": [
+        "caodi"
+      ],
+      "record": "needs",
+      "question": "遊程設計",
+      "prompt": "串連地方體驗與文化解說，設計可討論的遊程。",
+      "axis": "G",
+      "partner": "huang_mei"
+    }
+  ],
+  "framework": [
+    {
+      "id": "A",
+      "name": "文化韌性",
+      "stage": "永續",
+      "star": true,
+      "color": "#eee2ac",
+      "items": [
+        "人居環境與韌性社區",
+        "氣候變遷與永續環境",
+        "領路人：歷史建築、閒置空間、產業、文史、自然生態、深坑國中小",
+        "守護遺產計畫（Preserving Legacies）另同步啟動"
+      ],
+      "sites": [
+        "oldstreet",
+        "river"
+      ],
+      "records": [
+        "safety",
+        "penang"
+      ],
+      "npcs": [
+        "huang_jian"
+      ],
+      "intro": "從生活環境與地方知識出發，理解文化保存與社區韌性的關係。"
+    },
+    {
+      "id": "B",
+      "name": "有形空間",
+      "stage": "基盤",
+      "star": false,
+      "color": "#d9e7ed",
+      "items": [
+        "水域調查、全區自然環境災害與生態調查",
+        "人文歷史調查：淡蘭古道、保甲路與老街街屋",
+        "閒置空間盤點規劃：賴仲里",
+        "建築規劃與修復：高義泰豆腐體驗館、農會製茶廠",
+        "古座標、茶碑保存與歷史建築盤點紀錄"
+      ],
+      "sites": [
+        "oldstreet",
+        "ferry",
+        "river",
+        "temple"
+      ],
+      "records": [
+        "needs",
+        "riverwork"
+      ],
+      "npcs": [
+        "chien"
+      ],
+      "intro": "以調查、盤點與空間設計建立地方資源基礎。"
+    },
+    {
+      "id": "C",
+      "name": "無形人文",
+      "stage": "基盤",
+      "star": false,
+      "color": "#d9e7ed",
+      "items": [
+        "產業職人、產品製程紀錄片、企劃節目與刊物",
+        "耆老訪談與口述深坑歷史",
+        "宗教信仰：尪公、石媽祖、關渡二媽、集應廟、慈誠寺等",
+        "傳說故事、戲曲、歌謠與手工藝的盤點紀錄",
+        "深坑色盤點"
+      ],
+      "sites": [
+        "oldstreet",
+        "temple",
+        "trail"
+      ],
+      "records": [
+        "opera",
+        "needs"
+      ],
+      "npcs": [
+        "chien",
+        "chiu"
+      ],
+      "intro": "讓職人、生活記憶與文化表現成為可傳承的地方知識。"
+    },
+    {
+      "id": "D",
+      "name": "產業",
+      "stage": "應用",
+      "star": false,
+      "color": "#dfebd4",
+      "items": [
+        "茶",
+        "豆腐",
+        "農業：綠竹筍、南瓜",
+        "福窯麵包（深中）",
+        "香草（青山）"
+      ],
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "records": [
+        "baking"
+      ],
+      "npcs": [
+        "huang_tu"
+      ],
+      "intro": "將地方產業特色接入體驗、設計與共學。"
+    },
+    {
+      "id": "E",
+      "name": "文化觀光加值",
+      "stage": "加值",
+      "star": true,
+      "color": "#f0ddcc",
+      "items": [
+        "遊程規劃：季節性自然生態、茶文化美學體驗、茶路歷史走讀",
+        "影像與動畫：顏松濤漫畫、深坑四寶文化轉譯及導覽宣傳影片",
+        "IP、LOGO與深坑四寶文創商品開發",
+        "深坑元素數位互動與遊戲化、深坑導覽地圖",
+        "廢木雷雕門牌、產品包裝設計與行銷策略",
+        "活動節日企劃再優化、專欄與刊物製作"
+      ],
+      "sites": [
+        "oldstreet",
+        "tofu",
+        "gallery"
+      ],
+      "records": [
+        "needs",
+        "opera"
+      ],
+      "npcs": [
+        "huang_tu",
+        "chiu"
+      ],
+      "intro": "把地方內容轉為遊程、設計與文化體驗，圖中以星號標示。"
+    },
+    {
+      "id": "F",
+      "name": "數位加值",
+      "stage": "加值",
+      "star": false,
+      "color": "#f0ddcc",
+      "items": [
+        "AI",
+        "無人機",
+        "數位導覽",
+        "QR-code"
+      ],
+      "sites": [
+        "gallery",
+        "temple"
+      ],
+      "records": [
+        "needs",
+        "penang"
+      ],
+      "npcs": [
+        "chien"
+      ],
+      "intro": "以數位工具協助紀錄、整理與分享地方知識。"
+    },
+    {
+      "id": "G",
+      "name": "人才培育",
+      "stage": "永續",
+      "star": false,
+      "color": "#eee2ac",
+      "items": [
+        "防災小組人員培力",
+        "社區安全培力",
+        "景美溪的價值與保存",
+        "數位科技",
+        "雙語導覽",
+        "食農教育？（原圖保留問號，待討論）",
+        "麵包烘焙"
+      ],
+      "sites": [
+        "gallery",
+        "river",
+        "tofu"
+      ],
+      "records": [
+        "safety",
+        "baking",
+        "riverwork"
+      ],
+      "npcs": [
+        "huang_mei",
+        "huang_jian"
+      ],
+      "intro": "讓能力培養與地方參與支持後續的文化永續。"
+    }
+  ],
+  "courses": [
+    {
+      "term": "114下",
+      "dept": "通識",
+      "name": "傳統智慧與現代生活",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "通識",
+      "name": "氣候變遷與環境永續",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "土木系",
+      "name": "結構物修復與補強實務",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "土木系",
+      "name": "坡地工程",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "土木系",
+      "name": "防災監測與檢測實習",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "土木系",
+      "name": "電腦繪圖實作-Revit(二)",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "數媒系",
+      "name": "遊戲程式設計",
+      "credits": 3,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "數媒系",
+      "name": "數媒專題製作(二)",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "建築系",
+      "name": "建築設計(四)",
+      "credits": 4,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "室設系",
+      "name": "閒置空間再利用",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "視傳系",
+      "name": "文創工坊實務",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "影視系",
+      "name": "紀錄片製作",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "影視系",
+      "name": "劇本寫作",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "資工系",
+      "name": "網頁前端設計初階",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": true
+    },
+    {
+      "term": "114下",
+      "dept": "企管系",
+      "name": "創業企劃實務",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "行管系",
+      "name": "國際行銷管理",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "114下",
+      "dept": "行管系",
+      "name": "消費者行為",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "影視系",
+      "name": "實境節目製作",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "影視系",
+      "name": "文化與故事",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": true
+    },
+    {
+      "term": "115上",
+      "dept": "視傳系",
+      "name": "設計計畫與調查",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "數媒系",
+      "name": "遊戲理論與設計",
+      "credits": 3,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "建築系",
+      "name": "人居環境與韌性社區",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "建築系",
+      "name": "建築物理環境(一)",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "建築系",
+      "name": "建築設計(三)",
+      "credits": 4,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "建築系",
+      "name": "GIS地理資訊系統",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "資工系",
+      "name": "資料庫管理系統",
+      "credits": 3,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "資管系",
+      "name": "人工智慧技術應用",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "資管系",
+      "name": "電子商務與網路行銷",
+      "credits": 2,
+      "requirement": "必修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "觀管系",
+      "name": "智慧觀光休閒與商機",
+      "credits": 2,
+      "requirement": "選修",
+      "grey": false
+    },
+    {
+      "term": "115上",
+      "dept": "企管系",
+      "name": "活動企劃實務",
+      "credits": 3,
+      "requirement": "選修",
+      "grey": false
+    }
+  ],
+  "workshops": [
+    {
+      "id": "w1",
+      "number": 1,
+      "name": "深坑安全防災培力工作坊",
+      "done": true,
+      "year": 115,
+      "axis": "A",
+      "sites": [
+        "oldstreet",
+        "river"
+      ],
+      "students": [
+        "student_1",
+        "student_3"
+      ],
+      "partner": "huang_jian",
+      "record": "safety",
+      "intro": "文化資產防災與社區安全培力"
+    },
+    {
+      "id": "w2",
+      "number": 2,
+      "name": "深坑色協作工作坊",
+      "done": true,
+      "year": 0,
+      "axis": "C",
+      "sites": [
+        "oldstreet",
+        "gallery"
+      ],
+      "students": [
+        "student_5"
+      ],
+      "partner": "chiu",
+      "record": null,
+      "intro": "從地方色彩整理文化觀察與設計素材"
+    },
+    {
+      "id": "w3",
+      "number": 3,
+      "name": "深坑文化雙語導覽工作坊",
+      "done": true,
+      "year": 115,
+      "axis": "G",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "students": [
+        "student_11",
+        "student_10"
+      ],
+      "partner": "chien",
+      "record": null,
+      "intro": "文化解說、雙語交流與導覽學習"
+    },
+    {
+      "id": "w4",
+      "number": 4,
+      "name": "深坑福窯烘焙工作坊",
+      "done": true,
+      "year": 115,
+      "axis": "D",
+      "sites": [
+        "tofu"
+      ],
+      "students": [
+        "student_11",
+        "student_9"
+      ],
+      "partner": "huang_tu",
+      "record": "baking",
+      "intro": "以地方食材與烘焙串連文化及社群"
+    },
+    {
+      "id": "w5",
+      "number": 5,
+      "name": "深坑職人體驗工作坊",
+      "done": false,
+      "year": 115,
+      "axis": "C",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "students": [
+        "student_6",
+        "student_5"
+      ],
+      "partner": "huang_tu",
+      "record": null,
+      "intro": "認識地方職人的故事、技藝與產業"
+    },
+    {
+      "id": "w6",
+      "number": 6,
+      "name": "深坑景美溪價值探索工作坊",
+      "done": false,
+      "year": 115,
+      "axis": "B",
+      "sites": [
+        "river",
+        "ferry"
+      ],
+      "students": [
+        "student_0",
+        "student_1"
+      ],
+      "partner": "huang_mei",
+      "record": "riverwork",
+      "intro": "理解河川環境、水路記憶與地方價值"
+    },
+    {
+      "id": "w7",
+      "number": 7,
+      "name": "深坑數位科技應用工作坊",
+      "done": false,
+      "year": 116,
+      "axis": "F",
+      "sites": [
+        "gallery"
+      ],
+      "students": [
+        "student_2",
+        "student_7",
+        "student_8"
+      ],
+      "partner": "chien",
+      "record": null,
+      "intro": "以數位工具整理、轉譯及分享地方知識"
+    },
+    {
+      "id": "w8",
+      "number": 8,
+      "name": "深坑歷史地景探索工作坊",
+      "done": false,
+      "year": 116,
+      "axis": "B",
+      "sites": [
+        "oldstreet",
+        "trail",
+        "temple"
+      ],
+      "students": [
+        "student_3",
+        "student_4",
+        "student_6"
+      ],
+      "partner": "chien",
+      "record": null,
+      "intro": "從街屋、山徑與地景理解地方歷史"
+    },
+    {
+      "id": "w9",
+      "number": 9,
+      "name": "深坑自然生態探索工作坊",
+      "done": false,
+      "year": 116,
+      "axis": "B",
+      "sites": [
+        "river",
+        "trail"
+      ],
+      "students": [
+        "student_0",
+        "student_1"
+      ],
+      "partner": "huang_mei",
+      "record": null,
+      "intro": "透過環境觀察認識地方自然生態"
+    },
+    {
+      "id": "w10",
+      "number": 10,
+      "name": "茶產業食農教育工作坊",
+      "done": false,
+      "year": 116,
+      "axis": "G",
+      "sites": [
+        "tofu",
+        "caodi"
+      ],
+      "students": [
+        "student_11",
+        "student_10"
+      ],
+      "partner": "huang_tu",
+      "record": null,
+      "intro": "以茶產業連結食農教育與文化體驗"
+    }
+  ],
+  "missions": [
+    {
+      "id": "river",
+      "name": "河岸觀察員",
+      "badge": "水路記憶",
+      "sites": [
+        "river",
+        "ferry"
+      ],
+      "visits": [
+        {
+          "type": "site",
+          "id": "river",
+          "label": "探索景美溪河岸"
+        },
+        {
+          "type": "site",
+          "id": "ferry",
+          "label": "閱讀渡船頭記憶"
+        }
+      ],
+      "question": "景美溪的USR學習價值，哪一項最完整？",
+      "options": [
+        "只把河岸當拍照背景",
+        "連結生態觀察、水路記憶與地方生活",
+        "用模型水面判斷今天是否安全"
+      ],
+      "answer": 1,
+      "explain": "景美溪同時承載環境與文化議題；展示模型沒有即時水位或安全判定功能。"
+    },
+    {
+      "id": "people",
+      "name": "地方傾聽者",
+      "badge": "共學夥伴",
+      "sites": [
+        "oldstreet"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "huang_jian",
+          "label": "拜訪黃建強里長NPC"
+        },
+        {
+          "type": "record",
+          "id": "needs",
+          "label": "查閱在地需求與課程"
+        }
+      ],
+      "question": "學生想設計地方活動，適合先做什麼？",
+      "options": [
+        "先確認居民需求與參與意願，再共同討論",
+        "先決定作品，再要求居民配合",
+        "把NPC配對視為已取得本人同意"
+      ],
+      "answer": 0,
+      "explain": "共學從傾聽與回饋開始。NPC的對話與配對是展示設計，不等於真實同意或分工。"
+    },
+    {
+      "id": "student",
+      "name": "跨域創作者",
+      "badge": "數位轉譯",
+      "sites": [
+        "gallery"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_2",
+          "label": "與數媒系學生共學"
+        },
+        {
+          "type": "axis",
+          "id": "F",
+          "label": "探索F數位加值"
+        }
+      ],
+      "question": "數媒學生想把地方故事做成遊戲，哪種組合最符合課程與地方共學？",
+      "options": [
+        "只使用外地素材，不需要地方回饋",
+        "把課程名稱當作已完成作品",
+        "遊戲理論與設計、互動原型、地方故事回饋"
+      ],
+      "answer": 2,
+      "explain": "數媒課程提供設計與製作基礎，地方知識與回饋讓作品回應場域；課程列名不等於成果已完成。"
+    },
+    {
+      "id": "workshop",
+      "name": "工作坊策劃者",
+      "badge": "讀懂規劃",
+      "sites": [
+        "tofu"
+      ],
+      "visits": [
+        {
+          "type": "workshop",
+          "id": "w4",
+          "label": "閱讀福窯烘焙工作坊"
+        },
+        {
+          "type": "workshop",
+          "id": "w10",
+          "label": "比較茶產業食農教育規劃"
+        }
+      ],
+      "question": "依提供的工作坊圖表，哪個說法正確？",
+      "options": [
+        "所有10項都已完成",
+        "福窯標示已執行；茶產業食農教育列為116年規劃，需配合課程",
+        "只要列入年度表，就表示當年所有場次完成"
+      ],
+      "answer": 1,
+      "explain": "已執行與年度規劃是不同資訊。茶產業食農教育在此來源仍屬116年規劃。"
+    },
+    {
+      "id": "culture",
+      "name": "文化轉譯者",
+      "badge": "故事加值",
+      "sites": [
+        "oldstreet",
+        "temple"
+      ],
+      "visits": [
+        {
+          "type": "axis",
+          "id": "C",
+          "label": "認識C無形人文"
+        },
+        {
+          "type": "axis",
+          "id": "E",
+          "label": "探索E文化觀光加值"
+        }
+      ],
+      "question": "把耆老故事轉成導覽遊戲，合理的做法是？",
+      "options": [
+        "取得故事使用意願，保留脈絡並邀請地方回饋",
+        "為了好玩任意更改真實人物發言",
+        "只要加上LOGO就算完成文化保存"
+      ],
+      "answer": 0,
+      "explain": "文化轉譯需要尊重來源與地方觀點。創意可以改變呈現方式，但不應讓虛構內容冒充真人發言。"
+    },
+    {
+      "id": "impact",
+      "name": "韌性共學規劃師",
+      "badge": "學習護照",
+      "sites": [
+        "gallery",
+        "river"
+      ],
+      "visits": [
+        {
+          "type": "record",
+          "id": "impact",
+          "label": "閱讀社會影響評估"
+        },
+        {
+          "type": "axis",
+          "id": "G",
+          "label": "探索G人才培育"
+        }
+      ],
+      "question": "要評估一場USR共學活動，哪種做法較完整？",
+      "options": [
+        "只比較參加人數，不問學到了什麼",
+        "將社會影響估值當成活動營收",
+        "蒐集參與者的學習與行動回饋，說明樣本及估算限制，再改善活動"
+      ],
+      "answer": 2,
+      "explain": "人數是參與紀錄的一部分；學習改變、地方回饋及資料限制都需要一起看。報告估值不等於營收。"
+    },
+    {
+      "id": "dept_civil",
+      "department": "土木系",
+      "name": "河岸防災調查員",
+      "badge": "河岸防災調查員",
+      "sites": [
+        "oldstreet",
+        "river"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_1",
+          "label": "拜訪土木系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w1",
+          "label": "先看懂防災培力"
+        }
+      ],
+      "question": "在河岸發現裂縫，調查紀錄應如何處理？",
+      "options": [
+        "標記位置、時間與現象，交由專業人員評估",
+        "只憑模型判定橋梁安全",
+        "為了拍照自行進入封閉區"
+      ],
+      "answer": 0,
+      "explain": "觀察紀錄應可追溯；裂縫照片與展示模型不能取代專業檢測。",
+      "course": "坡地工程／防災監測與檢測實習",
+      "output": "現象、時間、位置與待確認事項"
+    },
+    {
+      "id": "dept_media",
+      "department": "數媒系",
+      "name": "地方故事遊戲設計師",
+      "badge": "地方故事遊戲設計師",
+      "sites": [
+        "gallery"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_2",
+          "label": "拜訪數媒系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w7",
+          "label": "探索數位科技應用"
+        }
+      ],
+      "question": "設計老街遊戲時，哪種任務最能促進學習？",
+      "options": [
+        "不停點擊領分，無須理解故事",
+        "閱讀地方線索後做選擇，提供理由並收集回饋",
+        "完成遊戲就宣稱取得導覽資格"
+      ],
+      "answer": 1,
+      "explain": "任務需要把地方知識、玩家行動與解釋連起來，並用回饋修正原型。",
+      "course": "遊戲程式設計／遊戲理論與設計",
+      "output": "目標、線索、選擇與回饋"
+    },
+    {
+      "id": "dept_architecture",
+      "department": "建築系",
+      "name": "老街韌性空間觀察員",
+      "badge": "老街韌性空間觀察員",
+      "sites": [
+        "oldstreet",
+        "trail",
+        "temple"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_3",
+          "label": "拜訪建築系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w8",
+          "label": "閱讀歷史地景探索"
+        }
+      ],
+      "question": "改善老街通行環境，哪種提案較合適？",
+      "options": [
+        "拆除所有舊立面以統一風格",
+        "直接把遊戲地圖當施工圖",
+        "記錄使用需求與文化特徵，再與居民討論動線改善"
+      ],
+      "answer": 2,
+      "explain": "建築提案要兼顧文化特徵、使用需求與通行；概念模型不可作施工或避難依據。",
+      "course": "建築設計／人居環境與韌性社區",
+      "output": "使用者、空間問題、保存重點與改善概念"
+    },
+    {
+      "id": "dept_interior",
+      "department": "室設系",
+      "name": "閒置空間共學改造師",
+      "badge": "閒置空間共學改造師",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_4",
+          "label": "拜訪室設系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w5",
+          "label": "了解職人體驗需求"
+        }
+      ],
+      "question": "把閒置空間改為共學工坊，第一步應該是？",
+      "options": [
+        "先找使用者與管理者，盤點用途、動線及維護需求",
+        "只挑漂亮家具",
+        "未取得同意就開放使用"
+      ],
+      "answer": 0,
+      "explain": "再利用從需求盤點與管理協調開始，空間美感也需配合實際使用及維護。",
+      "course": "閒置空間再利用",
+      "output": "用途、使用者、動線與維護方式"
+    },
+    {
+      "id": "dept_visual",
+      "department": "視傳系",
+      "name": "深坑色彩識別設計師",
+      "badge": "深坑色彩識別設計師",
+      "sites": [
+        "oldstreet",
+        "gallery"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_5",
+          "label": "拜訪視傳系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w2",
+          "label": "探索深坑色協作"
+        }
+      ],
+      "question": "設計深坑包裝識別，如何選擇色彩與圖像？",
+      "options": [
+        "複製其他品牌最熱門的圖樣",
+        "記錄在地色彩來源，測試可讀性並請地方回饋",
+        "只以設計者喜好決定"
+      ],
+      "answer": 1,
+      "explain": "在地識別要能說明素材來源、兼顧辨識與閱讀，並透過地方回饋調整。",
+      "course": "文創工坊實務／設計計畫與調查",
+      "output": "色彩來源、圖像脈絡、閱讀測試與回饋"
+    },
+    {
+      "id": "dept_film",
+      "department": "影視系",
+      "name": "地方職人影像記錄者",
+      "badge": "地方職人影像記錄者",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_6",
+          "label": "拜訪影視系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w5",
+          "label": "認識職人體驗"
+        }
+      ],
+      "question": "剪輯職人訪談時，哪個做法較合適？",
+      "options": [
+        "拼接不同句子，製造對方沒說過的立場",
+        "直接使用未授權音樂",
+        "確認拍攝與使用意願，保留語意脈絡並標示來源"
+      ],
+      "answer": 2,
+      "explain": "影像紀錄應尊重受訪者意願與語意，授權及素材來源也須記錄。",
+      "course": "紀錄片製作／劇本寫作",
+      "output": "訪談主題、同意方式、鏡頭清單與來源"
+    },
+    {
+      "id": "dept_computing",
+      "department": "資工系",
+      "name": "數位導覽系統工程師",
+      "badge": "數位導覽系統工程師",
+      "sites": [
+        "gallery"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_7",
+          "label": "拜訪資工系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w7",
+          "label": "探索數位科技應用"
+        }
+      ],
+      "question": "導覽系統斷網時，哪個行為最可靠？",
+      "options": [
+        "顯示待同步狀態，恢復連線後重試並避免重複寫入",
+        "立即顯示已上傳成功",
+        "每次重試都建立重複紀錄"
+      ],
+      "answer": 0,
+      "explain": "離線暫存與雲端成功是不同狀態；事件識別碼可協助避免重複紀錄。",
+      "course": "網頁前端設計初階／資料庫管理系統",
+      "output": "操作、資料欄位、離線狀態與驗收情境"
+    },
+    {
+      "id": "dept_information",
+      "department": "資管系",
+      "name": "地方資料與AI規劃師",
+      "badge": "地方資料與AI規劃師",
+      "sites": [
+        "gallery"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_8",
+          "label": "拜訪資管系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w7",
+          "label": "探索數位科技應用"
+        }
+      ],
+      "question": "AI產生的老街故事應如何上架？",
+      "options": [
+        "直接標為史實",
+        "核對來源、區分生成內容與史料，請地方確認",
+        "用虛構引言冒充耆老訪談"
+      ],
+      "answer": 1,
+      "explain": "AI可協助整理或發想，但史實與引言需要可查證來源，資料蒐集也應符合目的。",
+      "course": "人工智慧技術應用／電子商務與網路行銷",
+      "output": "資料來源、查核步驟、生成標示與使用目的"
+    },
+    {
+      "id": "dept_business",
+      "department": "企管系",
+      "name": "社區活動企劃人",
+      "badge": "社區活動企劃人",
+      "sites": [
+        "tofu"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_9",
+          "label": "拜訪企管系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w4",
+          "label": "閱讀福窯烘焙工作坊"
+        }
+      ],
+      "question": "規劃下一場共學活動，應如何安排資源？",
+      "options": [
+        "只估參加人數，忽略人力與材料",
+        "把歷史活動當作已確定的新場次",
+        "確認夥伴需求，估人力材料並訂回饋與改善方式"
+      ],
+      "answer": 2,
+      "explain": "企劃要連結需求、可用資源與評估；既有活動紀錄不是未來場次承諾。",
+      "course": "創業企劃實務／活動企劃實務",
+      "output": "需求、分工、資源預估與評估方式"
+    },
+    {
+      "id": "dept_marketing",
+      "department": "行管系",
+      "name": "地方產品行銷研究員",
+      "badge": "地方產品行銷研究員",
+      "sites": [
+        "tofu",
+        "caodi"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_10",
+          "label": "拜訪行管系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w10",
+          "label": "閱讀茶產業食農規劃"
+        }
+      ],
+      "question": "為地方茶產品設計宣傳，合理的起點是？",
+      "options": [
+        "訪談目標客群，確認產品事實，再測試訊息",
+        "杜撰功效來吸引購買",
+        "把規劃中活動寫成已完成成果"
+      ],
+      "answer": 0,
+      "explain": "行銷需要理解客群並查核產品說法，活動狀態與宣傳內容必須一致。",
+      "course": "國際行銷管理／消費者行為",
+      "output": "目標客群、需求證據、宣傳訊息與測試方法"
+    },
+    {
+      "id": "dept_tourism",
+      "department": "觀管系",
+      "name": "文化雙語遊程設計師",
+      "badge": "文化雙語遊程設計師",
+      "sites": [
+        "tofu",
+        "oldstreet"
+      ],
+      "visits": [
+        {
+          "type": "npc",
+          "id": "student_11",
+          "label": "拜訪觀管系學生NPC"
+        },
+        {
+          "type": "workshop",
+          "id": "w3",
+          "label": "探索文化雙語導覽"
+        }
+      ],
+      "question": "設計老街與河岸遊程，應優先考慮什麼？",
+      "options": [
+        "排滿景點，不留休息時間",
+        "依客群安排節奏、雙語說明及雨天替代方案",
+        "用展示動線保證現場通行安全"
+      ],
+      "answer": 1,
+      "explain": "遊程應回應客群與現場條件，提供易懂解說；展示路線不能取代現場安全資訊。",
+      "course": "智慧觀光休閒與商機",
+      "output": "客群、解說重點、停留節奏與替代方案"
+    },
+    {
+      "id": "visitor_route1",
+      "role": "visitor",
+      "name": "老街風華與水岸記憶",
+      "badge": "水岸記憶",
+      "sites": [
+        "oldtree",
+        "oldstreet",
+        "jishun",
+        "ferry",
+        "tofu"
+      ],
+      "intro": "以河流如何帶動街市為主線，介紹深坑作為文山茶葉經景美溪運輸的重要轉運地，讓遊客理解老街形成與產業發展的關係。[1]",
+      "meta": "半日 09:00–13:00｜4 小時｜步行｜初訪遊客與交流團",
+      "routeOrder": "老街入口大樹 → 老街街屋與亭仔腳 → 集順廟 → 渡船頭廣場及景美溪岸觀察點 → 豆腐午餐",
+      "goal": "以「一片茶葉如何從深坑運出去？」作為導覽提問，讓參與者在地圖標出山區、街市與水路。",
+      "note": "導覽員預備歷史地圖或茶葉運輸示意圖；溪岸解說選擇可合法、安全停留的公共空間，不安排下切河床。",
+      "source": "使用者提供《深坑六條主題導覽路線規劃》，規劃日期2026年10月23日",
+      "visits": [
+        {
+          "type": "tourstop",
+          "id": "r1s1",
+          "label": "1｜大樹集合",
+          "time": "09:00–09:30",
+          "name": "大樹集合",
+          "text": "認識深坑地形、聚落與老街位置。",
+          "site": "oldtree"
+        },
+        {
+          "type": "tourstop",
+          "id": "r1s2",
+          "label": "2｜街屋慢讀",
+          "time": "09:30–10:20",
+          "name": "街屋慢讀",
+          "text": "觀察店面、亭仔腳與商業空間。",
+          "site": "oldstreet"
+        },
+        {
+          "type": "tourstop",
+          "id": "r1s3",
+          "label": "3｜集順廟",
+          "time": "10:20–10:50",
+          "name": "集順廟",
+          "text": "解說廟宇與街市生活的關係。",
+          "site": "jishun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r1s4",
+          "label": "4｜渡船頭及溪岸",
+          "time": "10:50–11:40",
+          "name": "渡船頭及溪岸",
+          "text": "配合地圖介紹昔日茶葉運輸；包含移動時間。",
+          "site": "ferry"
+        },
+        {
+          "type": "tourstop",
+          "id": "r1s5",
+          "label": "5｜豆腐午餐",
+          "time": "11:40–13:00",
+          "name": "豆腐午餐",
+          "text": "用餐、自由採買與解散。",
+          "site": "tofu"
+        }
+      ],
+      "question": "一片茶葉從山區運出去，哪個順序最符合文件的導覽主軸？",
+      "options": [
+        "山區生產 → 街市轉運 → 景美溪水路",
+        "溪流種茶 → 山上造船 → 老街採收",
+        "只在老街生產，不涉及山區與水路"
+      ],
+      "answer": 0,
+      "explain": "文件以山區、街市與水路的關係理解深坑茶運；溪岸解說不安排下切河床。"
+    },
+    {
+      "id": "visitor_route2",
+      "role": "visitor",
+      "name": "深坑四寶尋味之旅",
+      "badge": "四寶知味",
+      "sites": [
+        "oldtree",
+        "tofu"
+      ],
+      "intro": "以豆腐、茶葉、綠竹筍及黑豬肉四寶為核心，從食材、生產、料理與地方品牌認識深坑。[2]",
+      "meta": "半日 10:00–14:30｜4.5 小時｜步行｜親子與食農教育團",
+      "routeOrder": "老街入口 → 豆腐店家 → 四寶食材與商品觀察 → 四寶午餐 → 預約品茶",
+      "goal": "每一寶回答「怎麼生產、怎麼料理、為什麼成為深坑特色」，可搭配四寶集章或味覺紀錄。",
+      "note": "綠竹筍依季節供應；品茶及製作示範須先預約，無法安排時改為茶品辨識與包裝觀察。事先確認飲食禁忌與過敏資訊，並區分在地特色與實際商品產地。",
+      "source": "使用者提供《深坑六條主題導覽路線規劃》，規劃日期2026年10月23日",
+      "visits": [
+        {
+          "type": "tourstop",
+          "id": "r2s1",
+          "label": "1｜四寶辨識",
+          "time": "10:00–10:30",
+          "name": "四寶辨識",
+          "text": "老街集合，以圖片或實物進行食材辨識。",
+          "site": "oldtree"
+        },
+        {
+          "type": "tourstop",
+          "id": "r2s2",
+          "label": "2｜豆腐主題",
+          "time": "10:30–11:20",
+          "name": "豆腐主題",
+          "text": "比較炭烤、紅燒、油炸等料理方式，安排小份品嘗。",
+          "site": "tofu"
+        },
+        {
+          "type": "tourstop",
+          "id": "r2s3",
+          "label": "3｜食材與商品觀察",
+          "time": "11:20–12:00",
+          "name": "食材與商品觀察",
+          "text": "辨識竹筍、茶及豬肉商品，閱讀產地標示。",
+          "site": "tofu"
+        },
+        {
+          "type": "tourstop",
+          "id": "r2s4",
+          "label": "4｜四寶午餐",
+          "time": "12:00–13:10",
+          "name": "四寶午餐",
+          "text": "品嘗主題料理，討論食材與地方特色。",
+          "site": "tofu"
+        },
+        {
+          "type": "tourstop",
+          "id": "r2s5",
+          "label": "5｜品茶與店家故事",
+          "time": "13:10–14:30",
+          "name": "品茶與店家故事",
+          "text": "預約品茶、了解茶品特色及挑選伴手禮。",
+          "site": "tofu"
+        }
+      ],
+      "question": "四寶體驗安排中，哪個做法符合這份規劃？",
+      "options": [
+        "每件商品都宣稱產自深坑",
+        "辨識豆腐、茶葉、綠竹筍、黑豬肉，查閱產地並確認飲食需求與預約",
+        "不論季節都保證有新鮮綠竹筍"
+      ],
+      "answer": 1,
+      "explain": "在地特色不等於每件商品都在地生產。竹筍有季節性，品茶及示範須預約。"
+    },
+    {
+      "id": "visitor_route3",
+      "role": "visitor",
+      "name": "黃氏古厝與街屋建築",
+      "badge": "建築讀景",
+      "sites": [
+        "yongan",
+        "xingshun",
+        "oldstreet"
+      ],
+      "intro": "以黃氏家族宅第對照老街店屋，說明居住、家族、商業與建築形式的關係。興順居可作為三合院、石條、磚牆及防禦空間的解說案例。[3][4]",
+      "meta": "一日 09:30–16:00｜6.5 小時｜步行＋接駁｜建築與設計團體",
+      "routeOrder": "黃氏永安居 → 黃氏興順居 → 老街午餐 → 街屋建築觀察 → 建築速寫與交流",
+      "goal": "讓參與者比較「住人的古厝」與「做生意的街屋」，選取屋頂、門窗、牆面或動線進行紀錄。",
+      "note": "古厝涉及私人產權，未取得同意不進入前埕與室內。無法參觀時改以公共空間外觀觀察及授權圖像解說。古厝間建議接駁，團體停車與上下客位置須先勘查。",
+      "source": "使用者提供《深坑六條主題導覽路線規劃》，規劃日期2026年10月23日",
+      "visits": [
+        {
+          "type": "tourstop",
+          "id": "r3s1",
+          "label": "1｜黃氏永安居",
+          "time": "09:30–10:40",
+          "name": "黃氏永安居",
+          "text": "介紹家族發展與宅第格局；入內須確認開放或預約。",
+          "site": "yongan"
+        },
+        {
+          "type": "tourstop",
+          "id": "r3s2",
+          "label": "2｜接駁與興順居",
+          "time": "10:40–12:00",
+          "name": "接駁與興順居",
+          "text": "移動至興順居，依可合法停留位置進行外觀解說。",
+          "site": "xingshun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r3s3",
+          "label": "3｜老街午餐",
+          "time": "12:00–13:00",
+          "name": "老街午餐",
+          "text": "返回老街用餐與休息；視接駁安排調整。",
+          "site": "oldstreet"
+        },
+        {
+          "type": "tourstop",
+          "id": "r3s4",
+          "label": "4｜街屋建築觀察",
+          "time": "13:00–14:20",
+          "name": "街屋建築觀察",
+          "text": "比較住宅、店屋與廟宇的立面及空間。",
+          "site": "oldstreet"
+        },
+        {
+          "type": "tourstop",
+          "id": "r3s5",
+          "label": "5｜建築速寫與交流",
+          "time": "14:20–16:00",
+          "name": "建築速寫與交流",
+          "text": "細節攝影、休息、速寫及成果分享。",
+          "site": "yongan"
+        }
+      ],
+      "question": "古厝未取得入內同意時，應如何調整建築觀察？",
+      "options": [
+        "直接進入前埕拍照",
+        "取消所有建築學習",
+        "在合法公共空間觀察外觀，搭配授權圖像比較住宅與街屋"
+      ],
+      "answer": 2,
+      "explain": "私人古厝的前埕與室內須取得同意；公共空間外觀觀察與授權圖像可作替代。"
+    },
+    {
+      "id": "visitor_route4",
+      "role": "visitor",
+      "name": "廟口信仰與庶民生活",
+      "badge": "廟口共生",
+      "sites": [
+        "jishun",
+        "oldstreet",
+        "fude",
+        "tofu"
+      ],
+      "intro": "以集順廟與街尾福德宮串聯地方信仰、商業及居民日常。街尾福德宮屋頂的雞、馬剪黏，可作為臺語「多買」諧音的觀察題材。[5][6]",
+      "meta": "半日 09:00–13:00｜4 小時｜步行｜文化走讀與攝影團",
+      "routeOrder": "集順廟 → 廟口商家 → 老街生活空間 → 街尾福德宮 → 午餐交流",
+      "goal": "尋找三種線索：守護地方的神明、祈求生意的象徵，以及居民聚會的位置。",
+      "note": "團體解說先徵詢廟方適合停留的位置；攝影避開干擾祭祀與拍攝未同意的人像。若遇祭典或法會，調整順序並縮短廟內停留。",
+      "source": "使用者提供《深坑六條主題導覽路線規劃》，規劃日期2026年10月23日",
+      "visits": [
+        {
+          "type": "tourstop",
+          "id": "r4s1",
+          "label": "1｜集順廟",
+          "time": "09:00–09:50",
+          "name": "集順廟",
+          "text": "介紹信仰故事、建築裝飾與參拜禮俗。",
+          "site": "jishun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r4s2",
+          "label": "2｜廟口商家",
+          "time": "09:50–10:30",
+          "name": "廟口商家",
+          "text": "觀察飲食、聚會及交易活動。",
+          "site": "jishun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r4s3",
+          "label": "3｜老街生活觀察",
+          "time": "10:30–11:10",
+          "name": "老街生活觀察",
+          "text": "尋找居民日常與觀光活動交會的空間。",
+          "site": "oldstreet"
+        },
+        {
+          "type": "tourstop",
+          "id": "r4s4",
+          "label": "4｜街尾福德宮",
+          "time": "11:10–11:40",
+          "name": "街尾福德宮",
+          "text": "認識土地公信仰，辨識屋頂裝飾。",
+          "site": "fude"
+        },
+        {
+          "type": "tourstop",
+          "id": "r4s5",
+          "label": "5｜午餐與交流",
+          "time": "11:40–13:00",
+          "name": "午餐與交流",
+          "text": "用餐，可加入預約的地方人士分享。",
+          "site": "tofu"
+        }
+      ],
+      "question": "廟口走讀遇到祭典，哪個處理方式較合適？",
+      "options": [
+        "徵詢廟方停留位置、調整順序，避免干擾祭祀及未同意人像拍攝",
+        "要求祭祀配合導覽暫停",
+        "只要是公共活動便可任意拍攝所有人"
+      ],
+      "answer": 0,
+      "explain": "信仰空間也是居民生活場域；解說與攝影須尊重現場使用者。"
+    },
+    {
+      "id": "visitor_route5",
+      "role": "visitor",
+      "name": "炮子崙茶路與山林聚落",
+      "badge": "茶路尋源",
+      "sites": [
+        "paozilun",
+        "ferry"
+      ],
+      "intro": "炮子崙步道又稱茶山古道，可沿途認識農家、土埆厝與石頭厝，以及菜園、茶園等聚落景觀，串聯山區生產與老街運輸。[7]",
+      "meta": "一日 09:00–16:00｜7 小時｜接駁＋山徑步行｜自然文化健行團",
+      "routeOrder": "深坑集合 → 接駁炮子崙步道入口 → 茶山古道折返走讀 → 山區午餐 → 返回老街 → 渡船頭茶運故事",
+      "goal": "以「山上生產 → 古道搬運 → 街市交易 → 溪流外銷」串起完整故事；沿途比較搬運路徑與現代道路。",
+      "note": "步道有階梯及濕滑路段，須事先踏查並確認團員體能。瀑布支線不列入基本行程，視天候及路況加選；雨天或颱風前後改採老街文化路線。預約接駁、確認通訊與折返時間，出發前查官方封閉公告。[8]",
+      "source": "使用者提供《深坑六條主題導覽路線規劃》，規劃日期2026年10月23日",
+      "visits": [
+        {
+          "type": "tourstop",
+          "id": "r5s1",
+          "label": "1｜集合與接駁",
+          "time": "09:00–09:40",
+          "name": "集合與接駁",
+          "text": "裝備確認及接駁至步道入口。",
+          "site": "paozilun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r5s2",
+          "label": "2｜古道折返走讀",
+          "time": "09:40–12:00",
+          "name": "古道折返走讀",
+          "text": "辨識路徑、建材及農業地景；依能力設定折返點。",
+          "site": "paozilun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r5s3",
+          "label": "3｜山區午餐",
+          "time": "12:00–13:00",
+          "name": "山區午餐",
+          "text": "預約用餐或自備餐食。",
+          "site": "paozilun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r5s4",
+          "label": "4｜聚落觀察與返回",
+          "time": "13:00–14:00",
+          "name": "聚落觀察與返回",
+          "text": "公共路徑觀察、休息及接駁返回老街。",
+          "site": "paozilun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r5s5",
+          "label": "5｜茶運與豆腐點心",
+          "time": "14:00–16:00",
+          "name": "茶運與豆腐點心",
+          "text": "渡船頭解說、點心及自由活動。",
+          "site": "ferry"
+        }
+      ],
+      "question": "茶山古道行程遇雨天或颱風前後，依文件應如何處理？",
+      "options": [
+        "照常加走瀑布支線",
+        "改採老街文化路線，查詢封閉公告並調整接駁與折返安排",
+        "依本遊戲模型判斷山徑是否安全"
+      ],
+      "answer": 1,
+      "explain": "文件要求先踏查、確認體能與官方公告；瀑布支線不列入基本行程，模型不提供即時路況。"
+    },
+    {
+      "id": "visitor_route6",
+      "role": "visitor",
+      "name": "深坑文化韌性與遊戲探索",
+      "badge": "文化轉譯",
+      "sites": [
+        "ferry",
+        "river",
+        "jishun",
+        "tofu",
+        "oldstreet",
+        "gallery"
+      ],
+      "intro": "把導覽轉化為「地方觀察 → 問題發現 → 文化轉譯」的學習活動，結合文化保存、地方產業及遊戲設計。此為建議教學方案，非既有對外開放活動。",
+      "meta": "一日 09:00–16:00｜7 小時｜步行｜大學生與 USR 課程",
+      "routeOrder": "渡船頭廣場 → 景美溪與街區觀察 → 老街及集順廟 → 店家訪談 → 小組任務 → 成果分享",
+      "goal": "每組完成一張主題地圖、三則文化故事、一項有證據的地方問題，以及一個桌遊或數位解謎構想。",
+      "note": "訪談事先取得店家同意；錄音、攝影及素材使用另徵詢授權。防災內容依官方資料與現地證據，觀察結果先列為待查證問題。事先預約成果分享空間。",
+      "source": "使用者提供《深坑六條主題導覽路線規劃》，規劃日期2026年10月23日",
+      "visits": [
+        {
+          "type": "tourstop",
+          "id": "r6s1",
+          "label": "1｜渡船頭集合",
+          "time": "09:00–09:40",
+          "name": "渡船頭集合",
+          "text": "介紹背景，分組並發放任務。",
+          "site": "ferry"
+        },
+        {
+          "type": "tourstop",
+          "id": "r6s2",
+          "label": "2｜溪岸與街區觀察",
+          "time": "09:40–10:30",
+          "name": "溪岸與街區觀察",
+          "text": "記錄地勢、排水、通行與避難指引。",
+          "site": "river"
+        },
+        {
+          "type": "tourstop",
+          "id": "r6s3",
+          "label": "3｜老街與集順廟",
+          "time": "10:30–12:00",
+          "name": "老街與集順廟",
+          "text": "蒐集建築、信仰及四寶文化線索。",
+          "site": "jishun"
+        },
+        {
+          "type": "tourstop",
+          "id": "r6s4",
+          "label": "4｜分組午餐",
+          "time": "12:00–13:00",
+          "name": "分組午餐",
+          "text": "記錄菜單與食材故事。",
+          "site": "tofu"
+        },
+        {
+          "type": "tourstop",
+          "id": "r6s5",
+          "label": "5｜預約店家訪談",
+          "time": "13:00–14:00",
+          "name": "預約店家訪談",
+          "text": "了解經營、傳承與觀光需求。",
+          "site": "oldstreet"
+        },
+        {
+          "type": "tourstop",
+          "id": "r6s6",
+          "label": "6｜任務探索",
+          "time": "14:00–15:00",
+          "name": "任務探索",
+          "text": "拍攝素材、繪製路線及構思遊戲機制。",
+          "site": "gallery"
+        },
+        {
+          "type": "tourstop",
+          "id": "r6s7",
+          "label": "7｜成果分享",
+          "time": "15:00–16:00",
+          "name": "成果分享",
+          "text": "於預約室內場地分享文化遊戲概念。",
+          "site": "gallery"
+        }
+      ],
+      "question": "USR遊戲探索的小組成果應包括哪些內容？",
+      "options": [
+        "只有一張合照與參加人數",
+        "未查證的危險判定與未授權錄音",
+        "一張主題地圖、三則文化故事、一項有證據的問題及一個遊戲構想"
+      ],
+      "answer": 2,
+      "explain": "觀察 → 問題發現 → 文化轉譯是教學主線；問題須有證據，訪談與素材使用需取得同意。"
+    }
+  ],
+  "geoLayout": {
+    "origin": {
+      "latitude": 25.0016916,
+      "longitude": 121.6147377
+    },
+    "originScene": [
+      4,
+      -9
+    ],
+    "metersPerUnit": 75,
+    "method": "局部等距近似：東向 X，北向 -Z；模型為縮小符號，河道道路與未核定點為示意。"
+  },
+  "riverPoints": [
+    [
+      -16,
+      -5
+    ],
+    [
+      -10,
+      -5.6
+    ],
+    [
+      -4.221293,
+      -5.85049
+    ],
+    [
+      1.425183,
+      -7.331647
+    ],
+    [
+      5.2,
+      -6.7
+    ],
+    [
+      9,
+      -7.8
+    ],
+    [
+      12,
+      -10
+    ],
+    [
+      14,
+      -12
+    ]
+  ]
+}

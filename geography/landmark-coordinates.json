@@ -1,0 +1,285 @@
+{
+  "checkedAt": "2026-10-23",
+  "coordinateSystem": "WGS84",
+  "purpose": "已套用8筆具座標地標（6筆官方／官方衍生、2筆候選）。其餘保留示意位置；不代表建物尺寸、道路河道或高程測量。",
+  "sites": [
+    {
+      "id": "oldstreet",
+      "name": "深坑老街",
+      "latitude": 25.0016916,
+      "longitude": 121.6147377,
+      "status": "official",
+      "note": "官方觀光代表點，非老街入口",
+      "source": "https://newtaipei.travel/zh-tw/attractions/detail/109911",
+      "scenePosition": {
+        "x": 4.0,
+        "z": -9.0
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "tofu",
+      "name": "豆腐與茶的街區",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "主題街區，需指定店家或沿街範圍。",
+      "source": null
+    },
+    {
+      "id": "ferry",
+      "name": "渡船頭記憶",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "渡船頭記憶與實際廣場位置仍待核對。",
+      "source": null
+    },
+    {
+      "id": "river",
+      "name": "景美溪河岸",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "河流為線狀地物，需河道折線及學習停留點。",
+      "source": null
+    },
+    {
+      "id": "bailu",
+      "name": "白鷺橋",
+      "latitude": 24.99956967,
+      "longitude": 121.60862605,
+      "status": "official_derived",
+      "note": "由官方橋頭、橋尾座標計算中點",
+      "source": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52",
+      "endpoints": [
+        {
+          "latitude": 24.99997985,
+          "longitude": 121.6087363
+        },
+        {
+          "latitude": 24.99915949,
+          "longitude": 121.6085158
+        }
+      ],
+      "scenePosition": {
+        "x": -4.221293,
+        "z": -5.85049
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "wenhua",
+      "name": "文化街",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "街道需路線幾何或指定路口。",
+      "source": null
+    },
+    {
+      "id": "caodi",
+      "name": "草地頭聚落",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "聚落範圍，需選定解說點。",
+      "source": null
+    },
+    {
+      "id": "puxin",
+      "name": "埔新橋",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "官方橋梁清單有平埔橋；未確認與場景埔新橋是否為同一座，不自動套用。",
+      "source": null
+    },
+    {
+      "id": "mazhu",
+      "name": "麻竹寮",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "聚落範圍，需選定解說點。",
+      "source": null
+    },
+    {
+      "id": "trail",
+      "name": "石媽祖古道",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "需分別核對登山口、古道路線及廟宇；不可直接使用廟宇座標代替古道入口。",
+      "source": null
+    },
+    {
+      "id": "dalu",
+      "name": "大崙腳",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "聚落範圍，需選定解說點。",
+      "source": null
+    },
+    {
+      "id": "temple",
+      "name": "鎮南宮石媽祖廟",
+      "latitude": 24.991611,
+      "longitude": 121.614983,
+      "status": "secondary_candidate",
+      "note": "維基百科座標，仍待官方或現地核對",
+      "source": "https://zh.wikipedia.org/wiki/鎮南宮石媽祖廟",
+      "scenePosition": {
+        "x": 4.329974,
+        "z": 5.962299
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "gallery",
+      "name": "數位共學展站",
+      "latitude": null,
+      "longitude": null,
+      "status": "virtual",
+      "note": "虛構數位共學展站，沒有真實地理座標。",
+      "source": null
+    },
+    {
+      "id": "oldtree",
+      "name": "老街入口大樹",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "入口有受保護樹106茄苳及107樟樹；需核對對應樹木定位，不套用老街代表點。",
+      "source": null
+    },
+    {
+      "id": "jishun",
+      "name": "集順廟",
+      "latitude": 25.00123,
+      "longitude": 121.613503,
+      "status": "secondary_candidate",
+      "note": "次級來源定位，仍待官方或現地核對",
+      "source": "https://religion.olc.tw/新北市/d7e1bd6d-12cd-4b7e-9aa3-0d99dadb2177/index.html",
+      "scenePosition": {
+        "x": 2.339101,
+        "z": -8.314863
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "yongan",
+      "name": "黃氏永安居",
+      "latitude": 25.001062,
+      "longitude": 121.610927,
+      "status": "official",
+      "note": "文化資產定位點，入口待確認",
+      "source": "https://tcmb.culture.tw/zh-tw/detail?id=19920523000001&indexCode=BOCH_CountryCulture_11",
+      "scenePosition": {
+        "x": -1.126092,
+        "z": -8.065506
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "xingshun",
+      "name": "黃氏興順居",
+      "latitude": 25.002418595720076,
+      "longitude": 121.61514711090885,
+      "status": "official",
+      "note": "文化資產定位點，入口待確認",
+      "source": "https://tcmb.culture.tw/zh-tw/detail?id=20130201000002&indexCode=BOCH_CountryCulture_11",
+      "scenePosition": {
+        "x": 4.550733,
+        "z": -10.079056
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "fude",
+      "name": "街尾福德宮",
+      "latitude": null,
+      "longitude": null,
+      "status": "unresolved",
+      "note": "需核對深坑街153號的街尾福德宮，不可誤用北深路三段水尾福德宮。",
+      "source": null
+    },
+    {
+      "id": "paozilun",
+      "name": "炮子崙茶路",
+      "latitude": 24.9902,
+      "longitude": 121.60534,
+      "status": "official",
+      "note": "炮子崙步道官方代表點，不代表整條茶路或已核實入口",
+      "source": "https://newtaipei.travel/zh-tw/attractions/detail/402645",
+      "scenePosition": {
+        "x": -8.641635,
+        "z": 8.056599
+      },
+      "appliedToScene": true
+    },
+    {
+      "id": "zhongzheng",
+      "name": "中正橋",
+      "latitude": 25.000567574999998,
+      "longitude": 121.6128236,
+      "status": "official_derived",
+      "note": "由官方橋頭、橋尾座標計算中點；已依座標定位與設定橋梁朝向。",
+      "source": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52",
+      "endpoints": [
+        {
+          "latitude": 25.00080958,
+          "longitude": 121.6127834
+        },
+        {
+          "latitude": 25.00032557,
+          "longitude": 121.6128638
+        }
+      ],
+      "scenePosition": {
+        "x": 1.425183,
+        "z": -7.331647
+      },
+      "appliedToScene": true
+    }
+  ],
+  "additionalAnchors": [
+    {
+      "name": "中正橋",
+      "head": {
+        "latitude": 25.00080958,
+        "longitude": 121.6127834
+      },
+      "end": {
+        "latitude": 25.00032557,
+        "longitude": 121.6128638
+      },
+      "source": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52"
+    },
+    {
+      "name": "平埔橋",
+      "head": {
+        "latitude": 25.000523,
+        "longitude": 121.615602
+      },
+      "end": {
+        "latitude": 24.999801,
+        "longitude": 121.615609
+      },
+      "source": "https://data.ntpc.gov.tw/datasets/38061b5c-165e-48bf-baec-158dbd5b2c52"
+    }
+  ],
+  "sceneProjection": {
+    "origin": {
+      "latitude": 25.0016916,
+      "longitude": 121.6147377
+    },
+    "originScene": [
+      4,
+      -9
+    ],
+    "metersPerUnit": 75,
+    "method": "局部等距近似：東向 X，北向 -Z；模型為縮小符號，河道道路與未核定點為示意。"
+  }
+}
