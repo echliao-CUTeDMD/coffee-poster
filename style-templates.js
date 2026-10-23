@@ -51,9 +51,9 @@ function renderAsset(target, t) {
   const n = state.photos.length;
   const scale = Number($('photo-area-size').value) / 100;
   const offset = Number($('photo-area-y').value) / 100;
-  const area = t.news ? {x:.14, y:.20, w:.72, h:.39} : {x:.19, y:.36, w:.62, h:.30};
+  const area = t.photoArea || (t.news ? {x:.14, y:.20, w:.72, h:.39} : {x:.19, y:.36, w:.62, h:.30});
   const aw = area.w * scale, ah = area.h * scale;
-  const ax = .5 - aw / 2, ay = Math.max(.02, Math.min(.98 - ah, area.y + offset + (area.h - ah) / 2));
+  const ax = area.x + (area.w - aw) / 2, ay = Math.max(.02, Math.min(.98 - ah, area.y + offset + (area.h - ah) / 2));
   const cols = n <= 1 ? 1 : n <= 4 ? 2 : 3, rows = Math.ceil(n / cols), gap = .012;
   state.photos.forEach((p, i) => {
     const pw = (aw - gap * (cols - 1)) / cols * w;
@@ -71,7 +71,12 @@ function renderAsset(target, t) {
     const dy = Number($('text-area-y').value) / 100;
     const lines = $('title').value.split('\n').slice(0, 4);
     c.fillStyle = $('text-color').value;
-    if (t.news) {
+    if (t.henry) {
+      textFit(c,$('brand').value,w*.5,h*(.08+dy),w*.65,w*.018*size,sans);
+      lines.forEach((line,i) => textFit(c,line,w*.5,h*(.135+dy+i*.08/Math.max(2,lines.length)),w*.70,w*.048*size*Math.min(1,2/lines.length),font));
+      textFit(c,$('subtitle').value,w*.5,h*(.23+dy),w*.70,w*.019*size,sans);
+      textFit(c,$('footer-text').value,w*.5,h*(.255+dy),w*.70,w*.013*size,sans);
+    } else if (t.news) {
       // User copy stays above the existing bottom ticker.
       c.fillStyle = 'rgba(255,255,255,.9)';
       c.fillRect(w * .13, h * (.605 + dy), w * .74, h * .125);
@@ -122,5 +127,5 @@ function buildTemplateGrid() {
     };
     $('template-grid').append(button);
   });
-  $('style-count').textContent = `${count} 款 / 共 60 款`;
+  $('style-count').textContent = `${count} 款 / 共 ${templates.length} 款`;
 }
